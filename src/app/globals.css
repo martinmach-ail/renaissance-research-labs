@@ -1,26 +1,455 @@
 @import "tailwindcss";
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   RENAISSANCE RESEARCH LABS - COMPLETE CSS VARIABLES
+   Migrated from Alamo AI Labs → RRL branding
+   ═══════════════════════════════════════════════════════════════════════════ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ═══════════════════════════════════════════════════════════════════════
+     BRAND COLORS (Global)
+     ═══════════════════════════════════════════════════════════════════════ */
+  --rrl-navy: #0F2F53;
+  --rrl-navy-light: #1a4a7a;
+  --rrl-cyan: #196EAC;
+  --rrl-cream: #F9F8F6;
+  --rrl-cream-dark: #EFEEE9;
+  --rrl-white: #FFFFFF;
+
+  /* Platform colors */
+  --legends-blue: #0F2F53;
+  --library-cyan: #196EAC;
+  --archetypes-ice: #A3D9FF;
+  --blueprint-glow: #1A5F8C;
+  --folder-cream: #F9F8F6;
+  --page-white: #FFFFFF;
+  --nav-bg: #F4F4F5;
+  --nav-border: #1a1a1a;
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     TEXT COLORS
+     ═══════════════════════════════════════════════════════════════════════ */
+  --text-black: #1a1a1a;
+  --text-gray: #4a4a4a;
+  --text-light: #6b6b6b;
+  --text-muted: #9a9a9a;
+  --text-secondary: #444444;
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     BORDER COLORS
+     ═══════════════════════════════════════════════════════════════════════ */
+  --border-dark: #d8d8d8;
+  --border-light: #e8e8e8;
+  --border-lighter: #f0f0f0;
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     SEMANTIC COLORS
+     ═══════════════════════════════════════════════════════════════════════ */
+  --success: #047857;
+  --warning: #D97706;
+  --danger: #DC2626;
+  --info: #0EA5E9;
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     ARCHETYPE COLORS
+     ═══════════════════════════════════════════════════════════════════════ */
+  --archetype-visionary: #312E81;
+  --archetype-operator: #374151;
+  --archetype-builder: #CA8A04;
+  --archetype-strategist: #0046FF;
+  --archetype-allocator: #047857;
+  --archetype-talent: #9D174D;
+  --archetype-turnaround: #DC2626;
+  --archetype-evangelist: #0EA5E9;
+  --archetype-scientist: #15803D;
+  --archetype-craftsman: #92400E;
+  --archetype-systems: #0D9488;
+  --archetype-communicator: #3B82F6;
+  --archetype-researcher: #7C3AED;
+
+  /* Default archetype */
+  --archetype-primary: #047857;
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     TYPOGRAPHY
+     ═══════════════════════════════════════════════════════════════════════ */
+  --font-display: 'Libre Baskerville', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     SPACING
+     ═══════════════════════════════════════════════════════════════════════ */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     LAYOUT
+     ═══════════════════════════════════════════════════════════════════════ */
+  --max-width: 1440px;
+  --header-height: 56px;
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     SHADOWS
+     ═══════════════════════════════════════════════════════════════════════ */
+  --shadow-subtle: 0 1px 3px rgba(0,0,0,0.05);
+  --shadow-card: 0 4px 20px rgba(0,0,0,0.06);
+  --shadow-elevated: 0 8px 24px rgba(0,0,0,0.12);
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     TRANSITIONS
+     ═══════════════════════════════════════════════════════════════════════ */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.4s ease;
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   TAILWIND v4 THEME EXTENSIONS
+   ═══════════════════════════════════════════════════════════════════════════ */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--page-white);
+  --color-foreground: var(--text-black);
+
+  --font-display: 'Libre Baskerville', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+
+  --animate-fade-up: fade-up 600ms ease-out forwards;
+  --animate-fade-up-delay-1: fade-up 600ms ease-out 100ms forwards;
+  --animate-fade-up-delay-2: fade-up 600ms ease-out 200ms forwards;
+  --animate-pulse-dot: pulse-dot 2s ease-in-out infinite;
+  --animate-scroll: scroll 50s linear infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ═══════════════════════════════════════════════════════════════════════════
+   KEYFRAME ANIMATIONS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes pulse-glow-nav {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 8px currentColor, 0 0 16px currentColor;
+  }
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 12px currentColor, 0 0 24px currentColor, 0 0 36px currentColor;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BASE STYLES
+   ═══════════════════════════════════════════════════════════════════════════ */
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--page-white);
+  color: var(--text-black);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility classes */
+.animate-pulse-glow {
+  animation: pulse-glow-nav 2s ease-in-out infinite;
+}
+
+.animate-scroll {
+  animation: scroll 50s linear infinite;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   FOLDER CARD STYLES
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.folder:hover .folder-body {
+  box-shadow: 0 12px 32px rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.06) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LEGEND GALLERY STYLES
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.legend-gallery-section {
+  padding: 80px 0 60px;
+  background: var(--page-white);
+}
+
+.legend-gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.legend-gallery-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.legend-gallery-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: var(--text-gray);
+}
+
+.legend-pulse-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--legends-blue);
+  border-radius: 50%;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.legend-gallery-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.section-number {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+}
+
+.title-divider {
+  width: 32px;
+  height: 1px;
+  background: var(--border-dark);
+}
+
+.legend-gallery-title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-black);
+  letter-spacing: -0.5px;
+}
+
+.legend-gallery-subtitle {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-style: italic;
+  color: var(--text-gray);
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto 16px;
+}
+
+.legend-gallery-divider {
+  height: 2px;
+  background: linear-gradient(90deg, var(--legends-blue), var(--library-cyan), var(--archetypes-ice));
+  border-radius: 1px;
+  margin: 0 auto;
+}
+
+/* Legend Grid */
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .legend-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .legend-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .legend-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* Legend Cards */
+.legend-card {
+  background: var(--rrl-cream);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.legend-card--active {
+  cursor: pointer;
+}
+
+.legend-card--active:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.legend-card--coming-soon {
+  opacity: 0.7;
+}
+
+.legend-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.legend-card-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.legend-img-black {
+  transition: opacity 0.4s ease;
+}
+
+.legend-img-color {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.legend-card--active:hover .legend-img-black {
+  opacity: 0;
+}
+
+.legend-card--active:hover .legend-img-color {
+  opacity: 1;
+}
+
+.legend-card-strip {
+  padding: 12px 14px;
+}
+
+.legend-name {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-black);
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.legend-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.legend-tag {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.02em;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.legend-tag--archetype {
+  background: rgba(15, 47, 83, 0.08);
+  color: var(--legends-blue);
+}
+
+.legend-tag--industry {
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--text-light);
+}
+
+/* Status Badge */
+.legend-status-badge {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 2px;
+  backdrop-filter: blur(4px);
+}
+
+.legend-status-badge--active {
+  background: rgba(4, 120, 87, 0.85);
+  color: white;
+}
+
+.legend-status-badge--coming-soon {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.legend-status-icon {
+  font-size: 10px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .legend-gallery-title {
+    font-size: 28px;
+  }
+
+  .legend-gallery-section {
+    padding: 48px 0 40px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   FOLDERS GRID
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  .folders-grid {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .folder {
+    width: 100% !important;
+    max-width: 360px;
+    height: auto !important;
+    min-height: 420px;
+  }
 }
