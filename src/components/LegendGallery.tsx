@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Legend {
   id: string;
@@ -184,7 +185,7 @@ const legends: Legend[] = [
 ];
 
 // For now, all legends show as "Coming Soon" — we'll activate them as volumes are published
-const activeLegends = new Set<string>([]);
+const activeLegends = new Set<string>(["henry-ford"]);
 
 export default function LegendGallery() {
   return (
@@ -299,7 +300,13 @@ export default function LegendGallery() {
                 transition={{ duration: 0.5, delay: index * 0.05 }}
                 viewport={{ once: true }}
               >
-                {cardContent}
+                {isActive ? (
+                  <Link href={`/legends/${legend.id}`} style={{ textDecoration: "none", color: "inherit", display: "block" }}>
+                    {cardContent}
+                  </Link>
+                ) : (
+                  cardContent
+                )}
               </motion.article>
             );
           })}
