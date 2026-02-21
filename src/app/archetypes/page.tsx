@@ -105,7 +105,7 @@ export default function Archetypes() {
               volume={item.volume}
               archetypeColor={item.archetypeColor}
               legendSlug={item.legendSlug}
-              isOdd={(globalIndex + 1) % 2 === 1}
+              isOdd={globalIndex % 2 === 1}
             />
           ))}
 
