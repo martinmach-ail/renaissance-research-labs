@@ -35,6 +35,7 @@ export function MarginaliaSidebar({ items, archetypeColor = '#CA8A04' }: Margina
 
     if (noteId !== prevNoteRef.current) {
       // Fade out current note
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- transition animation requires sequential setState
       setIsVisible(false);
 
       // After fade-out, swap note and fade in

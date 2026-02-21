@@ -43,6 +43,7 @@ export function VolumeSidebar({
   }, [tocItems]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- initial sync from DOM scroll position
     updateActiveSection();
     window.addEventListener("scroll", updateActiveSection);
     return () => window.removeEventListener("scroll", updateActiveSection);

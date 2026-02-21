@@ -26,6 +26,7 @@ export function PersonLink({ id, children }: PersonLinkProps) {
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- mount flag for SSR hydration
     setMounted(true);
     return () => {
       if (timerRef.current) clearTimeout(timerRef.current);

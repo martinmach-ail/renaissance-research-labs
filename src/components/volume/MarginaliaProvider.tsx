@@ -134,6 +134,7 @@ export function MarginaliaProvider({ children, sectionNoteCounts = {}, sectionNo
   }, [sectionNoteCounts, sectionNoteIds]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- initial sync from DOM scroll position
     updateActiveSection();
 
     let ticking = false;

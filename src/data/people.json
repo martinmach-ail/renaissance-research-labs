@@ -41,20 +41,20 @@
   },
   "hans-wilsdorf": {
     "name": "Hans Wilsdorf",
-    "role": "Rolex Founder",
+    "role": "Founder of Rolex (1881-1960)",
     "avatar": "HW",
     "quote": "",
-    "description": "Reached the opposite conclusion from Ford about value: built exclusivity rather than democratization. Founded Rolex three years before the Model T launched.",
+    "description": "Engineered a chain of strategic watch gifts to world leaders, creating the literal truth behind the slogan 'Men who guide the destinies of the world wear Rolex watches.' Built a narrative so profitable and so rigid that the company has essentially made the same product for seventy years.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "steve-jobs": {
     "name": "Steve Jobs",
-    "role": "Apple Co-founder",
+    "role": "Co-founder and CEO of Apple (1955-2011)",
     "avatar": "SJ",
     "quote": "",
-    "description": "Modern parallel to Ford's pattern of spousal sacrifice and obsessive focus. His wife Laurene described years of navigating a husband who could be 'not my best self.'",
+    "description": "His return to Apple in 1997 fused his personal mythology with Apple's corporate mythology so completely that Jobs's death raised existential questions about the company's future. The god-king problem: when the mythology resides in a single mortal person, the institution's future is on a biological clock.",
     "tags": [
       "REFERENCE"
     ]
@@ -219,13 +219,12 @@
   },
   "harry-bennett": {
     "name": "Harry Bennett",
-    "role": "Ford Service Department Head",
+    "role": "Head of Ford Motor Company's Service Department",
     "avatar": "HB",
     "quote": "",
-    "description": "Former boxer with organized crime connections. Rose to power during Ford's decline. His Service Department used intimidation and violence against union organizers.",
+    "description": "A former Navy boxer who built a private security apparatus that terrorized Ford employees and used violence to prevent unionization. Ford tolerated Bennett because Bennett confirmed the worldview that the self-reliant industrialist needed no bureaucratic structures.",
     "tags": [
-      "EMPLOYEE",
-      "ANTAGONIST"
+      "SUBJECT"
     ]
   },
   "charles-sorensen": {
@@ -947,7 +946,7 @@
     "role": "Chairman of LVMH",
     "avatar": "BA",
     "quote": "",
-    "description": "Built the world's largest luxury conglomerate by controlling both manufacturing upstream and distribution downstream. 'If you control your factories, you control your quality. If you control your distribution, you control your image.'",
+    "description": "Built the largest luxury conglomerate by recognizing that luxury brands advertise the dream, not the product. Spends more than a third of revenue on marketing, making LVMH the largest luxury advertiser in the world, trapping his brands in stories of perpetual desire that no specific purchase can satisfy.",
     "tags": [
       "SUBJECT"
     ]
@@ -1038,6 +1037,286 @@
     "avatar": "JM",
     "quote": "",
     "description": "Controlled the capital markets chokepoint through which every ambitious industrialist had to pass. His chokepoint was relational: the bottleneck of credibility in a market where most participants could not independently evaluate what they were buying.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "roberto-goizueta": {
+    "name": "Roberto Goizueta",
+    "role": "Chairman and CEO of Coca-Cola (1931-1997)",
+    "avatar": "RG",
+    "quote": "",
+    "description": "Authorized the New Coke launch and later admitted the company had failed to understand the emotional relationship consumers had with the brand. His acknowledgment that Coca-Cola 'did not understand the deep emotions of so many of our customers' became a landmark confession in corporate history.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "charlie-munger": {
+    "name": "Charlie Munger",
+    "role": "Vice Chairman of Berkshire Hathaway (1924-2023)",
+    "avatar": "CM",
+    "quote": "",
+    "description": "His speeches on cognitive bias and psychological misjudgment provide some of the most precise descriptions of identity-protective cognition in the business literature. Identified the occupied-space problem and the Tolstoy effect as mechanisms by which self-image prevents self-correction.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "marc-andreessen": {
+    "name": "Marc Andreessen",
+    "role": "Co-founder of Netscape and Andreessen Horowitz",
+    "avatar": "MA",
+    "quote": "",
+    "description": "Articulated the paradox that high-status individuals are the most susceptible to conformity pressures, observing that modern Western elites are 'overly oriented towards what other people like themselves think.' The cost of identity revision scales with the success of the original identity.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "thomas-w-lamont": {
+    "name": "Thomas W. Lamont",
+    "role": "Senior partner at J.P. Morgan & Co.",
+    "avatar": "TL",
+    "quote": "",
+    "description": "Wielded enormous influence in international finance and politics from the 1920s through the 1940s. His Morgan self-image as a relationship banker led him into arranging loans for Fascist Italy and managing Mussolini's public image in the American press, a moral catastrophe produced by a framework that had no category for a client who should be refused.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "richard-whitney": {
+    "name": "Richard Whitney",
+    "role": "President of the New York Stock Exchange (1930-1935)",
+    "avatar": "RW",
+    "quote": "",
+    "description": "A pillar of the Morgan social network whose embezzlement conviction in 1938 demolished the premise that social pedigree was a reliable proxy for character. His fraud proved that club membership and family connections were unreliable signals of the very quality Morgan claimed to measure.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "russell-leffingwell": {
+    "name": "Russell Leffingwell",
+    "role": "Morgan partner",
+    "avatar": "RL",
+    "quote": "",
+    "description": "Argued after the Pecora Hearings that any attack on J.P. Morgan & Co. was an attack on the entire social order, revealing how completely the firm's identity had merged with its class's self-conception. The firm had transcended banking entirely in its partners' minds.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "steve-ballmer": {
+    "name": "Steve Ballmer",
+    "role": "CEO of Microsoft (2000-2014)",
+    "avatar": "SB",
+    "quote": "",
+    "description": "His identity as a sales-driven operator collided catastrophically with Gates's identity as a technology visionary, producing a year of silence between them during the CEO transition. Ballmer later said he did not know what it meant to be Gates's boss, and Gates did not know what it meant to work for Ballmer.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "bill-gates": {
+    "name": "Bill Gates",
+    "role": "Co-founder of Microsoft",
+    "avatar": "BG",
+    "quote": "",
+    "description": "His identity as the technical visionary and undisputed leader of Microsoft could not accommodate the role of subordinate when Ballmer became CEO. The partnership structure that had sustained their relationship for decades collapsed the moment hierarchy was imposed.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "orlando-ayala": {
+    "name": "Orlando Ayala",
+    "role": "Microsoft sales leader",
+    "avatar": "OA",
+    "quote": "",
+    "description": "At an executive retreat, stood and declared 'My name is Orlando Ayala. I am not a proud Microsoftee today. Our integrity is under assault.' Crystallized for Ballmer that the antitrust crisis was an identity crisis, not just a legal one.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "blancpain": {
+    "name": "Blancpain",
+    "role": "Swiss watchmaker, est. 1735",
+    "avatar": "BL",
+    "quote": "",
+    "description": "Turned the quartz crisis into a brand advantage by declaring 'Since 1735 there has never been a quartz Blancpain watch and there never will be.' Converted a technological limitation into an identity statement that generates enormous pricing power and microscopic strategic options.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "napoleon-bonaparte": {
+    "name": "Napoleon Bonaparte",
+    "role": "French emperor (1769-1821)",
+    "avatar": "NB",
+    "quote": "",
+    "description": "Constructed a mythology around his 'star,' a near-mystical belief in his own destiny that drove his conquests and his strategic overreach. The star did not permit doubt, and so Napoleon invaded Russia, returned from Elba, and fought at Waterloo, because the star said he was invincible.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "ivy-lee": {
+    "name": "Ivy Lee",
+    "role": "Pioneer of modern public relations (1877-1934)",
+    "avatar": "IL",
+    "quote": "",
+    "description": "Invented the practice of shaping reality rather than merely managing messages. For the Pennsylvania Railroad and later Rockefeller, Lee constructed narratives that became the lens through which the public understood his clients, building them a beautiful house and locking them inside it.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "bernie-marcus": {
+    "name": "Bernie Marcus",
+    "role": "Co-founder of Home Depot",
+    "avatar": "BM",
+    "quote": "",
+    "description": "When a $3 million investor demanded healthcare cuts, Marcus pulled his car onto the highway shoulder and told the investor to get out. His commitment to people over metrics held under financial pressure because it was genuine, not performative.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "pertinax": {
+    "name": "Pertinax",
+    "role": "Roman emperor (193 AD)",
+    "avatar": "PE",
+    "quote": "",
+    "description": "Attempted to impose honest administration on soldiers accustomed to corruption under Commodus. His genuine, well-earned, morally admirable conviction killed him within three months because the environment could not tolerate it. Two loops collided; the Guard had swords.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "jayavarman-vii": {
+    "name": "Jayavarman VII",
+    "role": "Khmer emperor (r. 1181-1218)",
+    "avatar": "JV",
+    "quote": "",
+    "description": "Rebuilt Angkor after its sack by the Chams in 1177, constructing the Bayon temple with 216 stone faces representing his divine authority over every direction. His power was rooted in belief, and when Theravada Buddhism eroded that belief, no amount of stone faces could restore it.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "bagan": {
+    "name": "Bagan",
+    "role": "Medieval Burmese kingdom (849-1297 AD)",
+    "avatar": "BA",
+    "quote": "",
+    "description": "The kingdom whose identity as a Buddhist state created an irreversible economic trap: the king's legitimacy required donating land to monasteries, but donated land could never be taxed. By the late thirteenth century, 63 percent of the kingdom's land was tax-exempt.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "alexander-the-great": {
+    "name": "Alexander the Great",
+    "role": "Macedonian king (356-323 BC)",
+    "avatar": "AG",
+    "quote": "",
+    "description": "Carried the Iliad on his campaigns and modeled his identity and strategy on Achilles. The text was his operating system, brilliant during conquest but containing no instructions for what came after. His empire began fragmenting before his death.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "pepi-ii": {
+    "name": "Pharaoh Pepi II",
+    "role": "Egyptian pharaoh (r. c. 2278-2184 BC)",
+    "avatar": "PI",
+    "quote": "",
+    "description": "Ascended the throne at age six and ruled for over sixty years. A way of ruling formed by a six-year-old's circumstances was maintained by adult habit for six decades, slowly emptying the central authority of content.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "hiroo-onoda": {
+    "name": "Hiroo Onoda",
+    "role": "Japanese intelligence officer (1922-2014)",
+    "avatar": "HO",
+    "quote": "",
+    "description": "Continued fighting World War II on a Philippine island for twenty-nine years after Japan's surrender, dismissing every piece of evidence as enemy propaganda. The most committed refusal to update a performance review in recorded history.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "bob-nardelli": {
+    "name": "Bob Nardelli",
+    "role": "CEO of Home Depot (2000-2007)",
+    "avatar": "BN",
+    "quote": "",
+    "description": "A Six Sigma-trained GE executive whose professional management approach collided catastrophically with Home Depot's founder-driven culture. Nardelli's optimization required reducing the autonomy that Marcus's culture celebrated. He was eventually fired with a $210 million severance package.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "satya-nadella": {
+    "name": "Satya Nadella",
+    "role": "CEO of Microsoft (2014-present)",
+    "avatar": "SN",
+    "quote": "",
+    "description": "Demonstrated willingness to subordinate his own identity to the company's needs. When running Bing, he proposed hiring a brilliant engineer and having Nadella report to him. The gesture of ego suppression put him on the path to CEO.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "david-heinemeier-hansson": {
+    "name": "David Heinemeier Hansson",
+    "role": "Creator of Ruby on Rails, co-founder of Basecamp",
+    "avatar": "DH",
+    "quote": "",
+    "description": "Articulated the impossibility of retirement for ambitious operators: 'Mojito Island is a mirage. There is no retirement for ambitious people.' The striver and the retiree are incompatible psychological structures, and no amount of money can bridge the gap.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "michael-ovitz": {
+    "name": "Michael Ovitz",
+    "role": "Co-founder of Creative Artists Agency",
+    "avatar": "MO",
+    "quote": "",
+    "description": "Built CAA into the most powerful talent agency in entertainment, then discovered that his power had been a function of his position, not his person. His authority was rented from the institution he had built, and when he left, the authority did not follow.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "king-kashta": {
+    "name": "King Kashta",
+    "role": "Kushite ruler (8th century BC)",
+    "avatar": "KK",
+    "quote": "",
+    "description": "Worked to gain influence over the high priests of Thebes, eventually having his daughter appointed God's Wife of Amun. He conquered Egypt not through military force alone but by adopting an identity the current occupants had discarded.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "jean-claude-biver": {
+    "name": "Jean-Claude Biver",
+    "role": "Swiss-Lebanese watch industry executive",
+    "avatar": "JB",
+    "quote": "",
+    "description": "Purchased the dormant Blancpain brand for approximately $16,000 and reclassified the entire mechanical watch industry. Mechanical watches had been timekeeping devices; Biver reclassified them as luxury objects. The product did not change. The category did.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "barry-diller": {
+    "name": "Barry Diller",
+    "role": "Media executive",
+    "avatar": "BD",
+    "quote": "",
+    "description": "Left Fox Broadcasting at the height of his success to pursue interactive commerce. Used a binary identity frame to force the transition: 'I am the kind of person who takes this risk, or I am the kind of person who doesn't.' Bypassed the analytical objections that would have kept him comfortable.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "reed-hastings": {
+    "name": "Reed Hastings",
+    "role": "Co-founder and CEO of Netflix",
+    "avatar": "RH",
+    "quote": "",
+    "description": "Deliberately destroyed Netflix's profitable DVD business to force the transition to streaming. The Qwikster debacle failed as a branding exercise but succeeded as an identity operation. Netflix's streaming self emerged from the wreckage.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "jamie-dimon": {
+    "name": "Jamie Dimon",
+    "role": "Chairman and CEO of JPMorgan Chase",
+    "avatar": "JD",
+    "quote": "",
+    "description": "Put half his personal net worth into Bank One stock on his first day as CEO. By fusing his financial future with the institution's survival, Dimon eliminated the escape hatch that most trapped operators leave open.",
     "tags": [
       "SUBJECT"
     ]

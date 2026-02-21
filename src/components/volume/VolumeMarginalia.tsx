@@ -57,6 +57,7 @@ export function VolumeMarginalia({
   }, [notes]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- initial sync from DOM scroll position
     updateVisibleNotes();
     window.addEventListener("scroll", updateVisibleNotes);
     return () => window.removeEventListener("scroll", updateVisibleNotes);

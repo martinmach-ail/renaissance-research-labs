@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#F5F3EE"/>
+
+  <!-- Outer loop — the mythology cycle -->
+  <ellipse cx="200" cy="200" rx="120" ry="120" stroke="#6B3040" stroke-width="2" fill="none" opacity="0.12"/>
+
+  <!-- Inner loop — the identity trap -->
+  <ellipse cx="200" cy="200" rx="70" ry="70" stroke="#6B3040" stroke-width="1.5" fill="none" opacity="0.18"/>
+
+  <!-- Infinity/loop symbol in center -->
+  <path d="M160 200 C160 175 185 175 200 200 C215 225 240 225 240 200 C240 175 215 175 200 200 C185 225 160 225 160 200 Z" stroke="#6B3040" stroke-width="2" fill="none" opacity="0.25"/>
+
+  <!-- Directional arrows on outer loop -->
+  <polygon points="320,195 320,205 330,200" fill="#6B3040" opacity="0.2"/>
+  <polygon points="80,195 80,205 70,200" fill="#6B3040" opacity="0.2"/>
+  <polygon points="195,80 205,80 200,70" fill="#6B3040" opacity="0.2"/>
+  <polygon points="195,320 205,320 200,330" fill="#6B3040" opacity="0.2"/>
+
+  <!-- Center dot — the self -->
+  <circle cx="200" cy="200" r="4" fill="#6B3040" opacity="0.35"/>
+
+  <!-- Radiating lines — mythology projecting outward -->
+  <line x1="200" y1="126" x2="200" y2="90" stroke="#6B3040" stroke-width="1" opacity="0.1"/>
+  <line x1="274" y1="200" x2="310" y2="200" stroke="#6B3040" stroke-width="1" opacity="0.1"/>
+  <line x1="200" y1="274" x2="200" y2="310" stroke="#6B3040" stroke-width="1" opacity="0.1"/>
+  <line x1="126" y1="200" x2="90" y2="200" stroke="#6B3040" stroke-width="1" opacity="0.1"/>
+
+  <!-- Title text -->
+  <text x="200" y="270" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#6B3040" opacity="0.35" letter-spacing="0.15em">IDENTITY LOOP</text>
+  <text x="200" y="288" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#6B3040" opacity="0.25" letter-spacing="0.1em">CROSS-CUTTING ANALYSIS</text>
+</svg>

@@ -34,6 +34,7 @@ export function VolumeStickyHeader({
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- initial sync from DOM scroll position
     updateProgress();
     window.addEventListener("scroll", updateProgress);
     window.addEventListener("resize", updateProgress);
