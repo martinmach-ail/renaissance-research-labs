@@ -639,12 +639,12 @@
   },
   "henry-ford": {
     "name": "Henry Ford",
-    "role": "Founder of Ford Motor Company (1863-1947)",
+    "role": "Founder of Ford Motor Company who bet on single-model mass production when every competitor offered variety",
     "avatar": "HF",
     "quote": "Whether you think you can, or you think you can't — you're right.",
     "description": "Doubled wages to $5 per day to eliminate 370% annual turnover, staffed his factory with unskilled workers to force process simplification, and then held the Model T unchanged for nineteen years until the market forced a six-month shutdown.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "russell-ostrander": {
@@ -873,12 +873,12 @@
   },
   "jorge-paulo-lemann": {
     "name": "Jorge Paulo Lemann",
-    "role": "Brazilian-born co-founder of 3G Capital",
+    "role": "Brazilian billionaire investor who bought Brahma brewery in 1989 and built it into AB InBev, the world's largest beer company",
     "avatar": "JL",
     "quote": "",
     "description": "Waited five years to acquire Brahma brewing company, then closed the deal in one week when owners panicked. The initial $80 million investment became over $60 billion through systematic consolidation into AB InBev.",
     "tags": [
-      "OPERATOR"
+      "REFERENCE"
     ]
   },
   "kublai-khan": {
@@ -933,12 +933,12 @@
   },
   "morris-chang": {
     "name": "Morris Chang",
-    "role": "Founder of TSMC",
+    "role": "Founder of TSMC who created the pure-play foundry model separating chip design from manufacturing",
     "avatar": "MC",
     "quote": "",
     "description": "Built trust through incapacity: by refusing to design chips, TSMC became the only manufacturer that posed no competitive threat to its customers. Turned paranoia into a structural advantage no integrated competitor could replicate.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "bernard-arnault": {
@@ -1053,12 +1053,12 @@
   },
   "charlie-munger": {
     "name": "Charlie Munger",
-    "role": "Vice Chairman of Berkshire Hathaway (1924-2023)",
+    "role": "Vice chairman of Berkshire Hathaway and intellectual partner of Warren Buffett",
     "avatar": "CM",
     "quote": "",
     "description": "His speeches on cognitive bias and psychological misjudgment provide some of the most precise descriptions of identity-protective cognition in the business literature. Identified the occupied-space problem and the Tolstoy effect as mechanisms by which self-image prevents self-correction.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "marc-andreessen": {
@@ -1163,12 +1163,12 @@
   },
   "bernie-marcus": {
     "name": "Bernie Marcus",
-    "role": "Co-founder of Home Depot",
+    "role": "Co-founder of Home Depot who walked away from Ross Perot's investment over a dispute about a Cadillac",
     "avatar": "BM",
     "quote": "",
     "description": "When a $3 million investor demanded healthcare cuts, Marcus pulled his car onto the highway shoulder and told the investor to get out. His commitment to people over metrics held under financial pressure because it was genuine, not performative.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "pertinax": {
@@ -1253,22 +1253,22 @@
   },
   "david-heinemeier-hansson": {
     "name": "David Heinemeier Hansson",
-    "role": "Creator of Ruby on Rails, co-founder of 37signals",
+    "role": "Creator of Ruby on Rails and co-founder of Basecamp/Hey.com who rejected venture capital and the separation of front-end and back-end engineering",
     "avatar": "DH",
     "quote": "",
     "description": "Articulated the impossibility of retirement for ambitious operators: 'Mojito Island is a mirage. There is no retirement for ambitious people.' The striver and the retiree are incompatible psychological structures, and no amount of money can bridge the gap.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "michael-ovitz": {
     "name": "Michael Ovitz",
-    "role": "Co-founder of Creative Artists Agency",
+    "role": "Legendary talent agent, co-founder of CAA, and one of the most powerful figures in 1980s-90s Hollywood",
     "avatar": "MO",
     "quote": "",
     "description": "Built CAA into the most powerful talent agency in entertainment, then discovered that his power had been a function of his position, not his person. His authority was rented from the institution he had built, and when he left, the authority did not follow.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "king-kashta": {
@@ -1283,12 +1283,12 @@
   },
   "jean-claude-biver": {
     "name": "Jean-Claude Biver",
-    "role": "Swiss-Lebanese watch industry executive",
+    "role": "Luxury watch executive who bought the dormant Blancpain brand in 1983 for sixteen thousand dollars and revived mechanical watchmaking by positioning obsolescence as heritage",
     "avatar": "JB",
     "quote": "",
     "description": "Purchased the dormant Blancpain brand for approximately $16,000 and reclassified the entire mechanical watch industry. Mechanical watches had been timekeeping devices; Biver reclassified them as luxury objects. The product did not change. The category did.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "barry-diller": {
@@ -1303,32 +1303,32 @@
   },
   "reed-hastings": {
     "name": "Reed Hastings",
-    "role": "Co-founder of Netflix",
+    "role": "Co-founder of Netflix who built a DVD-by-mail business while the market chased internet delivery",
     "avatar": "RH",
     "quote": "",
     "description": "Deliberately destroyed Netflix's profitable DVD business to force the transition to streaming. The Qwikster debacle failed as a branding exercise but succeeded as an identity operation. Netflix's streaming self emerged from the wreckage.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "jamie-dimon": {
     "name": "Jamie Dimon",
-    "role": "Chairman and CEO of JPMorgan Chase",
+    "role": "CEO of JPMorgan Chase who maintained conservative leverage during the pre-2008 boom while competitors posted higher returns",
     "avatar": "JD",
     "quote": "",
     "description": "Put half his personal net worth into Bank One stock on his first day as CEO. By fusing his financial future with the institution's survival, Dimon eliminated the escape hatch that most trapped operators leave open.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "sol-price": {
     "name": "Sol Price",
-    "role": "Founder of FedMart and Price Club",
+    "role": "Founder of FedMart and Price Club, pioneer of the warehouse club format and the concept of 'intelligent loss of sales'",
     "avatar": "SP",
     "quote": "",
     "description": "Invented the warehouse club format and pioneered the concept of 'the intelligent loss of sales'—the deliberate refusal to carry profitable products that would complicate operations or confuse the value proposition.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "jim-sinegal": {
@@ -1383,12 +1383,12 @@
   },
   "martin-escobari": {
     "name": "Martin Escobari",
-    "role": "Partner at General Atlantic",
+    "role": "Managing partner at General Atlantic and former 3G Capital executive",
     "avatar": "ME",
     "quote": "",
     "description": "Built an investment practice around refusing binary risk: worst-case scenario must be that a company grows into the valuation paid. Achieved a 4% loss ratio in an industry where 20-40% is standard.",
     "tags": [
-      "SUBJECT"
+      "REFERENCE"
     ]
   },
   "peter-kaufman": {
@@ -1413,7 +1413,7 @@
   },
   "emperor-maurice": {
     "name": "Emperor Maurice",
-    "role": "Byzantine emperor and military theorist (539-602 AD)",
+    "role": "Byzantine emperor who codified asymmetric warfare doctrine in the Strategikon",
     "avatar": "EM",
     "quote": "",
     "description": "Wrote the Strategikon, instructing commanders facing nomadic horse-archer armies to avoid pitched battles entirely. The instruction contradicted Roman military culture, which prized direct engagement and decisive battle.",
@@ -1463,7 +1463,7 @@
   },
   "andrew-carnegie": {
     "name": "Andrew Carnegie",
-    "role": "Founder of Carnegie Steel (1835-1919)",
+    "role": "Steel magnate who doubled plant capacity during depressions when competitors were cutting dividends",
     "avatar": "AC",
     "quote": "",
     "description": "Selected Rannoch Lodge in the Scottish Highlands—thirty-five miles from the nearest telegraph—as his vacation spot during the Homestead Strike. The alibi collapsed when the deliberate selection became public knowledge.",
@@ -1487,6 +1487,166 @@
     "avatar": "KA",
     "quote": "",
     "description": "Faced a problem no army could solve: military invasion of Egypt would unite the factions against him. Instead, he had his daughter appointed God's Wife of Amun, the most powerful religious position in Upper Egypt. Upper Egypt came under Nubian control without a single battle.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "hamilton-helmer": {
+    "name": "Hamilton Helmer",
+    "role": "Business strategist and author of 7 Powers, which formalized counter-positioning as one of seven durable sources of competitive power",
+    "avatar": "HH",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "david-rosenthal": {
+    "name": "David Rosenthal",
+    "role": "Co-host of the Acquired podcast, known for deep-dive business history episodes",
+    "avatar": "DR",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "john-connaughton": {
+    "name": "John Connaughton",
+    "role": "Managing Director at Bain Capital who described the firm's counter-positioning hiring philosophy of recruiting from consulting rather than investment banking",
+    "avatar": "JC",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "ross-perot": {
+    "name": "Ross Perot",
+    "role": "Founder of EDS and billionaire investor who walked away from a two-million-dollar deal for seventy percent of Home Depot over the kind of car Bernie Marcus drove",
+    "avatar": "RP",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "henry-singleton": {
+    "name": "Henry Singleton",
+    "role": "CEO of Teledyne who built the company through 130 acquisitions during the conglomerate boom, then repurchased ninety percent of shares when the stock collapsed",
+    "avatar": "HS",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "henry-clay-frick": {
+    "name": "Henry Clay Frick",
+    "role": "Coke magnate who bought distressed ovens during the Panic of 1873 and controlled eighty percent of Connellsville supply by age thirty",
+    "avatar": "HF",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "lotte-bjerre-knudsen": {
+    "name": "Lotte Bjerre Knudsen",
+    "role": "Novo Nordisk scientist who spent nearly two decades developing GLP-1 obesity drugs against institutional resistance, producing semaglutide (Ozempic/Wegovy)",
+    "avatar": "LK",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "lars-sorensen": {
+    "name": "Lars Sorensen",
+    "role": "CEO of Novo Nordisk who publicly declared in 2005 that obesity had 'no business' for the company, while a scientist inside was building what would become its most valuable product",
+    "avatar": "LS",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "orlando-bravo": {
+    "name": "Orlando Bravo",
+    "role": "Founder of Thoma Bravo, the largest software-focused private equity firm, who bet against the assumption that growth requires losses",
+    "avatar": "OB",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "thomas-peterffy": {
+    "name": "Thomas Peterffy",
+    "role": "Hungarian immigrant who built Interactive Brokers by automating trading when every other firm relied on human traders",
+    "avatar": "TP",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "siegmund-warburg": {
+    "name": "Siegmund Warburg",
+    "role": "German-Jewish immigrant banker who launched the first hostile takeover in postwar British history in 1958, breaking the City of London's gentlemen's agreements",
+    "avatar": "SW",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "e-h-harriman": {
+    "name": "E.H. Harriman",
+    "role": "Railroad magnate who attempted to buy the Northern Pacific to gain control of the Burlington Railroad through the back door",
+    "avatar": "EH",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "ron-johnson": {
+    "name": "Ron Johnson",
+    "role": "Former Apple Store head who attempted to counter-position JCPenney against the department store model and was fired seventeen months later after revenue fell twenty-five percent",
+    "avatar": "RJ",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "philip-ii-macedon": {
+    "name": "Philip II of Macedon",
+    "role": "King who studied Greek democracy as a teenage hostage in Thebes, then built a military system calibrated to exploit every weakness he had catalogued",
+    "avatar": "PM",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "syllaeus": {
+    "name": "Syllaeus",
+    "role": "Nabataean guide who sabotaged the Roman expedition to southern Arabia by leading them on a deliberately circuitous route through waterless desert",
+    "avatar": "SY",
+    "quote": "",
+    "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "james-c-scott": {
+    "name": "James C. Scott",
+    "role": "Political scientist who studied Zomia, a mountainous region of Southeast Asia where populations practiced escape agriculture to remain invisible to the state",
+    "avatar": "JS",
+    "quote": "",
+    "description": "",
     "tags": [
       "REFERENCE"
     ]
