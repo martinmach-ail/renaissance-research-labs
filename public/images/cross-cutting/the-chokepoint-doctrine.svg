@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#F5F3EE"/>
+
+  <!-- Mountain silhouette representing narrow pass -->
+  <path d="M0 400 L80 180 L130 250 L200 100 L270 250 L320 180 L400 400 Z" fill="#0F2F53" opacity="0.08"/>
+
+  <!-- Narrow pass / chokepoint symbol -->
+  <path d="M140 120 L180 200 L160 200 L160 340 L240 340 L240 200 L220 200 L260 120" stroke="#0F2F53" stroke-width="2" fill="none" opacity="0.15"/>
+
+  <!-- Flow arrows through the chokepoint -->
+  <line x1="200" y1="80" x2="200" y2="140" stroke="#CA8A04" stroke-width="2" opacity="0.4"/>
+  <polygon points="195,140 200,150 205,140" fill="#CA8A04" opacity="0.4"/>
+
+  <line x1="200" y1="320" x2="200" y2="380" stroke="#CA8A04" stroke-width="2" opacity="0.4"/>
+  <polygon points="195,370 200,380 205,370" fill="#CA8A04" opacity="0.4"/>
+
+  <!-- Geometric circles representing nodes in a network -->
+  <circle cx="200" cy="60" r="12" stroke="#0F2F53" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <circle cx="160" cy="40" r="8" stroke="#0F2F53" stroke-width="1" fill="none" opacity="0.15"/>
+  <circle cx="240" cy="40" r="8" stroke="#0F2F53" stroke-width="1" fill="none" opacity="0.15"/>
+
+  <!-- Central chokepoint dot -->
+  <circle cx="200" cy="230" r="6" fill="#CA8A04" opacity="0.3"/>
+
+  <!-- Title text -->
+  <text x="200" y="270" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#0F2F53" opacity="0.35" letter-spacing="0.15em">CHOKEPOINT DOCTRINE</text>
+  <text x="200" y="288" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#0F2F53" opacity="0.25" letter-spacing="0.1em">CROSS-CUTTING ANALYSIS</text>
+</svg>

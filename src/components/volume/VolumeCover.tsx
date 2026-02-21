@@ -19,6 +19,12 @@ interface VolumeCoverProps {
   quoteAttribution?: string;
   archetypeColor: string;
   pdfUrl?: string;
+  hook?: string;
+  legendsAnalyzed?: number;
+  historicalRange?: string;
+  industriesSpanned?: number;
+  sourcesCount?: number;
+  isCrossCutting?: boolean;
 }
 
 export function VolumeCover({
@@ -37,6 +43,12 @@ export function VolumeCover({
   quoteAttribution,
   archetypeColor,
   pdfUrl,
+  hook,
+  legendsAnalyzed,
+  historicalRange,
+  industriesSpanned,
+  sourcesCount,
+  isCrossCutting = false,
 }: VolumeCoverProps) {
   return (
     <section
@@ -92,30 +104,70 @@ export function VolumeCover({
 
         {/* Info */}
         <div className="cover-info">
-          <div className="cover-label">Legend Dossier</div>
+          <div className="cover-label">
+            {isCrossCutting ? "Cross-Cutting Analysis" : "Legend Dossier"}
+          </div>
           <h1 className="cover-title">{legendName}</h1>
           <p className="cover-subtitle">{volumeSubtitle}</p>
+
+          {/* Hook description */}
+          {hook && (
+            <p className="cover-hook">{hook}</p>
+          )}
 
           <div className="cover-divider" />
 
           <div className="cover-meta">
-            <div className="cover-meta-item">
-              <span className="cover-meta-label">Lived</span>
-              <span className="cover-meta-value">{dates}</span>
-            </div>
-            <div className="cover-meta-item">
-              <span className="cover-meta-label">Industry</span>
-              <span className="cover-meta-value">{industry}</span>
-            </div>
+            {/* Cross-cutting stats */}
+            {isCrossCutting && legendsAnalyzed && (
+              <div className="cover-meta-item">
+                <span className="cover-meta-label">Legends Analyzed</span>
+                <span className="cover-meta-value">{legendsAnalyzed}</span>
+              </div>
+            )}
+            {isCrossCutting && historicalRange && (
+              <div className="cover-meta-item">
+                <span className="cover-meta-label">Historical Range</span>
+                <span className="cover-meta-value">{historicalRange}</span>
+              </div>
+            )}
+            {isCrossCutting && industriesSpanned && (
+              <div className="cover-meta-item">
+                <span className="cover-meta-label">Industries</span>
+                <span className="cover-meta-value">{industriesSpanned}</span>
+              </div>
+            )}
+            {isCrossCutting && sourcesCount && (
+              <div className="cover-meta-item">
+                <span className="cover-meta-label">Sources</span>
+                <span className="cover-meta-value">{sourcesCount}</span>
+              </div>
+            )}
+            {/* Legend-specific stats */}
+            {!isCrossCutting && dates && (
+              <div className="cover-meta-item">
+                <span className="cover-meta-label">Lived</span>
+                <span className="cover-meta-value">{dates}</span>
+              </div>
+            )}
+            {!isCrossCutting && industry && (
+              <div className="cover-meta-item">
+                <span className="cover-meta-label">Industry</span>
+                <span className="cover-meta-value">{industry}</span>
+              </div>
+            )}
             <div className="cover-meta-item">
               <span className="cover-meta-label">Reading Time</span>
               <span className="cover-meta-value">~{readingTime} minutes</span>
             </div>
           </div>
 
+          {/* Tags — skip archetype for cross-cutting, show only disciplines */}
           <div className="cover-tags">
-            <span className="cover-tag cover-tag--primary">{archetype}</span>
-            {secondaryArchetypes.map((arch, idx) => (
+            {!isCrossCutting && archetype && (
+              <span className="cover-tag cover-tag--primary">{archetype}</span>
+            )}
+            {!isCrossCutting && secondaryArchetypes.map((arch, idx) => (
               <span
                 key={arch}
                 className={`cover-tag ${idx === 0 ? "cover-tag--secondary" : ""}`}

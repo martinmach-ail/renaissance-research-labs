@@ -29,6 +29,8 @@ export const ARCHETYPE_DISPLAY_NAMES: Record<string, string> = {
   'ARCH_MARKET_MAKER': 'Market Maker',
   'ARCH_CONTRARIAN': 'Contrarian',
   'ARCH_SCALE_OPERATOR': 'Scale Operator',
+  'CROSS_CUTTING': 'Cross-Cutting Analysis',
+  'ARCH_STRATEGIST': 'Strategist',
 };
 
 export const MOTIF_DISPLAY_NAMES: Record<string, string> = {
@@ -65,6 +67,9 @@ export const RELATIONSHIP_DISPLAY_NAMES: Record<string, string> = {
   'INNOVATOR': 'Innovator',
   'LEADER': 'Leader',
   'ENGINEER': 'Engineer',
+  'SUBJECT': 'Subject',
+  'OPERATOR': 'Operator',
+  'CHRONICLER': 'Chronicler',
 };
 
 export const MARGINALIA_TYPE_LABELS: Record<string, string> = {
@@ -75,6 +80,11 @@ export const MARGINALIA_TYPE_LABELS: Record<string, string> = {
   'CONTRARIAN': 'Contrarian View',
   'MOTIF': 'Motif',
   'PRIMARY_VOICE': 'Primary Voice',
+  'MECHANISM': 'Mechanism',
+  'HISTORICAL': 'Historical Context',
+  'PATTERN': 'Pattern',
+  'STRATEGIC': 'Strategic Note',
+  'SOURCE_CONTEXT': 'Source Context',
 };
 
 export const MARGINALIA_TYPE_COLORS: Record<string, string> = {
@@ -85,6 +95,11 @@ export const MARGINALIA_TYPE_COLORS: Record<string, string> = {
   'CONTRARIAN': '#DC2626',    // Red
   'MOTIF': '#CA8A04',         // Gold (same as theme)
   'PRIMARY_VOICE': '#0F2F53', // Navy
+  'MECHANISM': '#7C3AED',     // Purple
+  'HISTORICAL': '#92400E',    // Amber-brown
+  'PATTERN': '#059669',       // Emerald
+  'STRATEGIC': '#0046FF',     // Blue
+  'SOURCE_CONTEXT': '#64748B', // Slate
 };
 
 /**

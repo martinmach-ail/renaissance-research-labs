@@ -2,23 +2,17 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
-import peopleData from '@/data/people.json';
 
-interface Person {
-  name: string;
-  role: string;
-  avatar: string;
-  quote?: string;
-  description: string;
-  tags: string[];
+interface SourceRefProps {
+  id: number;
+  sources?: Array<{
+    id: number;
+    citation: string;
+    dbId?: string;
+  }>;
 }
 
-interface PersonLinkProps {
-  id: string;
-  children: React.ReactNode;
-}
-
-export function PersonLink({ id, children }: PersonLinkProps) {
+export function SourceRef({ id, sources = [] }: SourceRefProps) {
   const [visible, setVisible] = useState(false);
   const [pos, setPos] = useState({ x: 0, y: 0 });
   const [mounted, setMounted] = useState(false);
@@ -32,20 +26,20 @@ export function PersonLink({ id, children }: PersonLinkProps) {
     };
   }, []);
 
-  const person = peopleData[id as keyof typeof peopleData] as Person | undefined;
+  const source = sources.find((s) => s.id === id);
 
   const show = useCallback(() => {
     if (timerRef.current) clearTimeout(timerRef.current);
     if (linkRef.current) {
       const rect = linkRef.current.getBoundingClientRect();
       let x = rect.left + rect.width / 2;
-      let y = rect.bottom + 8;
+      let y = rect.bottom + 6;
 
-      const cardW = 320;
-      const cardH = 220;
+      const cardW = 360;
+      const cardH = 80;
       if (x - cardW / 2 < 12) x = cardW / 2 + 12;
       if (x + cardW / 2 > window.innerWidth - 12) x = window.innerWidth - cardW / 2 - 12;
-      if (y + cardH > window.innerHeight - 12) y = rect.top - cardH - 8;
+      if (y + cardH > window.innerHeight - 12) y = rect.top - cardH - 6;
 
       setPos({ x, y });
     }
@@ -60,15 +54,9 @@ export function PersonLink({ id, children }: PersonLinkProps) {
     if (timerRef.current) clearTimeout(timerRef.current);
   }, []);
 
-  if (!person) {
-    return <span className="person-link person-link--missing">{children}</span>;
-  }
-
-  const relationship = person.tags[0]?.toLowerCase() || 'reference';
-
   const card = visible && mounted ? (
     <div
-      className="person-card"
+      className="source-ref-card"
       style={{
         position: 'fixed',
         left: `${pos.x}px`,
@@ -79,25 +67,10 @@ export function PersonLink({ id, children }: PersonLinkProps) {
       onMouseEnter={keepOpen}
       onMouseLeave={hide}
     >
-      <div className="person-card-header">
-        <div className="person-card-initials">{person.avatar}</div>
-        <div>
-          <div className="person-card-name">{person.name}</div>
-          <div className="person-card-role">{person.role}</div>
-        </div>
+      <div className="source-ref-card-label">Source</div>
+      <div className="source-ref-card-citation">
+        {source?.citation || `Source ${id}`}
       </div>
-      <div className={`person-card-relationship rel-${relationship}`}>{relationship}</div>
-      {person.quote && (
-        <p className="person-card-quote">&ldquo;{person.quote}&rdquo;</p>
-      )}
-      <p className="person-card-insight">{person.description}</p>
-      {person.tags.length > 1 && (
-        <div className="person-card-tags">
-          {person.tags.slice(1).map(tag => (
-            <span key={tag} className="person-card-tag">{tag}</span>
-          ))}
-        </div>
-      )}
     </div>
   ) : null;
 
@@ -105,12 +78,11 @@ export function PersonLink({ id, children }: PersonLinkProps) {
     <>
       <span
         ref={linkRef}
-        className="person-link"
-        data-person={id}
+        className="source-ref"
         onMouseEnter={show}
         onMouseLeave={hide}
       >
-        {children}
+        <sup>{id}</sup>
       </span>
       {mounted && card && createPortal(card, document.body)}
     </>

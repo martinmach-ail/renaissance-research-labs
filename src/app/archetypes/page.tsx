@@ -1,82 +1,119 @@
-"use client";
-
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
 import NavHeader from "@/components/NavHeader";
 import Footer from "@/components/Footer";
-import { motion } from "framer-motion";
+import { VolumeBlock } from "@/components/hub";
+import { ArchetypesHero } from "./ArchetypesHero";
+
+interface VolumeData {
+  number: number;
+  title: string;
+  slug: string;
+  readingTime: number;
+  primaryDiscipline?: string;
+  disciplines: string[];
+  image: string;
+  status: "published" | "coming-soon";
+  hook?: string;
+  quote?: string;
+  quoteSource?: string;
+  pdfStatus?: "available" | "coming-soon";
+  pdfUrl?: string;
+}
+
+interface CrossCuttingAnalysis {
+  slug: string;
+  legend: string;
+  subtitle: string;
+  archetypeColor: string;
+  hook: string;
+  volumes: VolumeData[];
+}
+
+function getCrossCuttingVolumes(): CrossCuttingAnalysis[] {
+  const contentPath = path.join(process.cwd(), "content", "legends");
+
+  if (!fs.existsSync(contentPath)) {
+    return [];
+  }
+
+  const entries = fs.readdirSync(contentPath, { withFileTypes: true });
+  const crossCutting: CrossCuttingAnalysis[] = [];
+
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+
+    const indexPath = path.join(contentPath, entry.name, "index.mdx");
+    if (!fs.existsSync(indexPath)) continue;
+
+    const fileContent = fs.readFileSync(indexPath, "utf-8");
+    const { data } = matter(fileContent);
+
+    if (data.archetype === "CROSS_CUTTING") {
+      crossCutting.push({
+        slug: entry.name,
+        legend: data.legend,
+        subtitle: data.subtitle,
+        archetypeColor: data.archetypeColor || "#0F2F53",
+        hook: data.hook || "",
+        volumes: (data.volumes || []).map((v: Record<string, unknown>) => ({
+          number: (v.number as number) || 1,
+          title: (v.title as string) || "",
+          slug: (v.slug as string) || "volume-1",
+          readingTime: (v.readingTime as number) || 30,
+          primaryDiscipline: v.primaryDiscipline as string | undefined,
+          disciplines: (v.disciplines as string[]) || [],
+          image: (v.image as string) || `/images/cross-cutting/${entry.name}.svg`,
+          status: ((v.status as string) || "published") as "published" | "coming-soon",
+          hook: v.hook as string | undefined,
+          quote: v.quote as string | undefined,
+          quoteSource: v.quoteSource as string | undefined,
+          pdfStatus: ((v.pdfStatus as string) || "coming-soon") as "available" | "coming-soon",
+          pdfUrl: v.pdfUrl as string | undefined,
+        })),
+      });
+    }
+  }
+
+  return crossCutting;
+}
 
 export default function Archetypes() {
+  const crossCuttingVolumes = getCrossCuttingVolumes();
+
   return (
     <div className="min-h-screen bg-white flex flex-col">
       <NavHeader />
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section
-          className="min-h-[50vh] flex flex-col items-center justify-center text-center relative z-10"
-          style={{
-            backgroundColor: "#1a3a5c",
-            paddingTop: "calc(80px + 60px)",
-            paddingBottom: "60px",
-            paddingLeft: "24px",
-            paddingRight: "24px",
-          }}
-        >
-          <motion.div
-            className="flex items-center gap-2 mb-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
-            <span className="w-2 h-2 bg-white rounded-full" />
-            <span className="font-body text-[11px] font-semibold uppercase tracking-[0.25em] text-white">
-              Advisory Forge
-            </span>
-          </motion.div>
+        <ArchetypesHero />
 
-          <motion.h1
-            className="font-display font-bold text-white leading-none mb-8"
-            style={{ fontSize: "clamp(4rem, 12vw, 8rem)" }}
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
-          >
-            Archetypes
-          </motion.h1>
+        {/* Cross-Cutting Analysis Volumes */}
+        {crossCuttingVolumes.map((analysis) =>
+          analysis.volumes.map((volume, index) => (
+            <VolumeBlock
+              key={`${analysis.slug}-${volume.slug}`}
+              volume={volume}
+              archetypeColor={analysis.archetypeColor}
+              legendSlug={analysis.slug}
+              isOdd={(index + 1) % 2 === 1}
+            />
+          ))
+        )}
 
-          <motion.p
-            className="font-display italic text-white/90 leading-relaxed max-w-[700px]"
-            style={{ fontSize: "clamp(1.125rem, 2.5vw, 1.5rem)" }}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
-          >
-            A personalized founder board that channels the wisdom of
-            history&apos;s greatest operators, delivering sharp, situational
-            insight and contrarian perspective to help you navigate your toughest
-            decisions.
-          </motion.p>
-
-          <motion.div
-            className="mt-12 h-[3px] bg-white rounded-full"
-            initial={{ width: 0, opacity: 0 }}
-            animate={{ width: 60, opacity: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-          />
-        </section>
-
-        {/* Coming Soon Content */}
-        <section className="py-24 px-6 text-center">
-          <motion.p
-            className="font-body italic text-lg"
-            style={{ color: "var(--text-gray)" }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5 }}
-          >
-            Content coming soon. The Archetypes section will feature a
-            personalized founder advisory board experience.
-          </motion.p>
-        </section>
+        {/* Empty state if no cross-cutting volumes exist */}
+        {crossCuttingVolumes.length === 0 && (
+          <section className="py-24 px-6 text-center">
+            <p
+              className="font-body italic text-lg"
+              style={{ color: "#6b6b6b" }}
+            >
+              Content coming soon. Cross-cutting analyses will appear here.
+            </p>
+          </section>
+        )}
       </main>
 
       <Footer />

@@ -5,7 +5,9 @@
     "avatar": "TE",
     "quote": "",
     "description": "Ford's mentor whose electrical thinking shaped how Ford conceived of money as a 'transmitter' of energy. Edison's battle over AC/DC current influenced Ford's philosophy that energy systems require flow.",
-    "tags": ["MENTOR"]
+    "tags": [
+      "MENTOR"
+    ]
   },
   "sam-walton": {
     "name": "Sam Walton",
@@ -13,7 +15,9 @@
     "avatar": "SW",
     "quote": "",
     "description": "Drove a pickup truck despite being America's richest man. Exemplifies the pattern of builders who accumulate fortunes while genuinely not caring about the fortune.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "warren-buffett": {
     "name": "Warren Buffett",
@@ -21,7 +25,9 @@
     "avatar": "WB",
     "quote": "",
     "description": "Still lives in the Omaha house he bought in 1958. Another example of authentic indifference to personal wealth that creates trust.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "sam-zell": {
     "name": "Sam Zell",
@@ -29,7 +35,9 @@
     "avatar": "SZ",
     "quote": "Wealth is a great way to keep score but not the object of the game.",
     "description": "Billionaire real estate investor known as the 'Grave Dancer' for buying distressed assets. Famous for his contrarian approach and indifference to conventional success metrics.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "hans-wilsdorf": {
     "name": "Hans Wilsdorf",
@@ -37,7 +45,9 @@
     "avatar": "HW",
     "quote": "",
     "description": "Reached the opposite conclusion from Ford about value: built exclusivity rather than democratization. Founded Rolex three years before the Model T launched.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "steve-jobs": {
     "name": "Steve Jobs",
@@ -45,7 +55,9 @@
     "avatar": "SJ",
     "quote": "",
     "description": "Modern parallel to Ford's pattern of spousal sacrifice and obsessive focus. His wife Laurene described years of navigating a husband who could be 'not my best self.'",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "coffee-jim": {
     "name": "Coffee Jim",
@@ -53,7 +65,10 @@
     "avatar": "CJ",
     "quote": "Your word's all I want.",
     "description": "Lunch wagon proprietor who became Ford's friend during years of late-night conversation. Provided Ford's first external capital for the 999 racing car based purely on personal trust.",
-    "tags": ["INVESTOR", "FRIEND"]
+    "tags": [
+      "INVESTOR",
+      "FRIEND"
+    ]
   },
   "barney-oldfield": {
     "name": "Barney Oldfield",
@@ -61,7 +76,9 @@
     "avatar": "BO",
     "quote": "This chariot may kill me, but they will say afterward that I was going like hell when she took me over the bank.",
     "description": "Bicycle racer who had never driven an automobile when he agreed to pilot the dangerous 999. Won by half a mile, transforming Ford's credibility overnight.",
-    "tags": ["COLLABORATOR"]
+    "tags": [
+      "COLLABORATOR"
+    ]
   },
   "alexander-winton": {
     "name": "Alexander Winton",
@@ -69,7 +86,9 @@
     "avatar": "AW",
     "quote": "",
     "description": "Defeated by Barney Oldfield in the 999 by half a mile in October 1902. The overwhelming margin transformed Ford's credibility with investors.",
-    "tags": ["COMPETITOR"]
+    "tags": [
+      "COMPETITOR"
+    ]
   },
   "enzo-ferrari": {
     "name": "Enzo Ferrari",
@@ -77,7 +96,9 @@
     "avatar": "EZ",
     "quote": "",
     "description": "Walked away from selling to Ford in 1963, publicly embarrassing Henry Ford II. Ford's response was the $25 million GT40 program that swept Le Mans 1-2-3 in 1966.",
-    "tags": ["RIVAL"]
+    "tags": [
+      "RIVAL"
+    ]
   },
   "henry-ford-ii": {
     "name": "Henry Ford II",
@@ -85,7 +106,10 @@
     "avatar": "H2",
     "quote": "I am green and searching for answers. This company needs professional management, and it doesn't have any.",
     "description": "Rescued Ford Motor Company from collapse after his grandfather's decline. Initiated the GT40 program after Ferrari's public embarrassment. Known as 'the Deuce.'",
-    "tags": ["FAMILY", "LEADER"]
+    "tags": [
+      "FAMILY",
+      "LEADER"
+    ]
   },
   "elon-musk": {
     "name": "Elon Musk",
@@ -93,7 +117,9 @@
     "avatar": "EM",
     "quote": "",
     "description": "Grasped Ford's spectacle demonstration principle. The Tesla Roadster and SpaceX's fourth Falcon 1 launch proved that binary public success beats years of quiet competence.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "clara-ford": {
     "name": "Clara Bryant Ford",
@@ -101,7 +127,10 @@
     "avatar": "CF",
     "quote": "Seven years. Seven years. Henry, at last you've done it.",
     "description": "Married Ford in 1888 and sustained seven years of sacrifice while he built his first automobile. Her household economy financed his experiments when no investor would.",
-    "tags": ["FAMILY", "PARTNER"]
+    "tags": [
+      "FAMILY",
+      "PARTNER"
+    ]
   },
   "jeff-bezos": {
     "name": "Jeff Bezos",
@@ -109,7 +138,9 @@
     "avatar": "JB",
     "quote": "",
     "description": "Built the same vertical integration capability at Amazon that Ford pioneered: warehouses, delivery trucks, cargo planes, container ships. Also exemplifies the spousal sacrifice pattern.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "dodge-brothers": {
     "name": "John & Horace Dodge",
@@ -117,7 +148,10 @@
     "avatar": "DD",
     "quote": "",
     "description": "Filed the landmark lawsuit that established shareholder primacy. Their demand for dividends led to Ford's $106 million buyout of all minority shareholders.",
-    "tags": ["INVESTOR", "COMPETITOR"]
+    "tags": [
+      "INVESTOR",
+      "COMPETITOR"
+    ]
   },
   "john-dodge": {
     "name": "John Dodge",
@@ -125,7 +159,10 @@
     "avatar": "JD",
     "quote": "",
     "description": "With his brother Horace, supplied Ford's early engines and transmissions. Their lawsuit established the legal principle of shareholder primacy that still governs corporate law.",
-    "tags": ["INVESTOR", "COMPETITOR"]
+    "tags": [
+      "INVESTOR",
+      "COMPETITOR"
+    ]
   },
   "horace-dodge": {
     "name": "Horace Dodge",
@@ -133,15 +170,20 @@
     "avatar": "HD",
     "quote": "",
     "description": "The Dodge brothers filed their lawsuit the day after attending Edsel Ford's wedding, where they had been guests. The timing carried its own insult.",
-    "tags": ["INVESTOR", "COMPETITOR"]
+    "tags": [
+      "INVESTOR",
+      "COMPETITOR"
+    ]
   },
   "mark-zuckerberg": {
     "name": "Mark Zuckerberg",
-    "role": "Meta CEO",
+    "role": "CEO of Meta",
     "avatar": "MZ",
     "quote": "",
-    "description": "Solved the shareholder control problem differently than Ford, using supervoting shares rather than buyout. Achieved founder control without owning a majority.",
-    "tags": ["REFERENCE"]
+    "description": "Invested over $50 billion in Reality Labs specifically to escape Apple's chokepoint control over iOS. The cost of building your own platform, however astronomical, is finite. The cost of remaining dependent on someone else's is potentially unlimited.",
+    "tags": [
+      "SUBJECT"
+    ]
   },
   "taiichi-ohno": {
     "name": "Taiichi Ohno",
@@ -149,7 +191,10 @@
     "avatar": "TO",
     "quote": "",
     "description": "Called Ford his primary teacher but improved precisely where Ford failed. Built continuous improvement and worker judgment into Toyota's culture. The student who surpassed the teacher.",
-    "tags": ["MENTEE", "REFERENCE"]
+    "tags": [
+      "MENTEE",
+      "REFERENCE"
+    ]
   },
   "alfred-sloan": {
     "name": "Alfred P. Sloan",
@@ -157,7 +202,10 @@
     "avatar": "AS",
     "quote": "The old master had failed to master change.",
     "description": "Developed the market segmentation strategy that defeated Ford. Created the brand ladder from Chevrolet to Cadillac and annual model changes. GM passed Ford by 1930.",
-    "tags": ["COMPETITOR", "RIVAL"]
+    "tags": [
+      "COMPETITOR",
+      "RIVAL"
+    ]
   },
   "edsel-ford": {
     "name": "Edsel Ford",
@@ -165,7 +213,9 @@
     "avatar": "EF",
     "quote": "",
     "description": "Groomed to succeed his father but systematically undermined. Represented modern management: market research, design innovation, product variety. Died at 49, with stress as a contributing factor.",
-    "tags": ["FAMILY"]
+    "tags": [
+      "FAMILY"
+    ]
   },
   "harry-bennett": {
     "name": "Harry Bennett",
@@ -173,7 +223,10 @@
     "avatar": "HB",
     "quote": "",
     "description": "Former boxer with organized crime connections. Rose to power during Ford's decline. His Service Department used intimidation and violence against union organizers.",
-    "tags": ["EMPLOYEE", "ANTAGONIST"]
+    "tags": [
+      "EMPLOYEE",
+      "ANTAGONIST"
+    ]
   },
   "charles-sorensen": {
     "name": "Charles E. Sorensen",
@@ -181,7 +234,10 @@
     "avatar": "CS",
     "quote": "",
     "description": "The foreman who arranged the first moving assembly line experiment in 1913. Rose to become Ford's most important production executive, known as 'Cast-Iron Charlie.'",
-    "tags": ["EMPLOYEE", "COLLABORATOR"]
+    "tags": [
+      "EMPLOYEE",
+      "COLLABORATOR"
+    ]
   },
   "gustavus-swift": {
     "name": "Gustavus Swift",
@@ -189,7 +245,9 @@
     "avatar": "GS",
     "quote": "",
     "description": "Chicago meatpacker who pioneered the disassembly line for animal carcasses. Ford's assembly line was essentially Swift's process in reverse.",
-    "tags": ["INFLUENCE"]
+    "tags": [
+      "INFLUENCE"
+    ]
   },
   "philip-armour": {
     "name": "Philip Armour",
@@ -197,7 +255,9 @@
     "avatar": "PA",
     "quote": "",
     "description": "Along with Swift, developed the Chicago stockyard methods that Ford adapted. Discovered that moving chains naturally synchronize worker pace.",
-    "tags": ["INFLUENCE"]
+    "tags": [
+      "INFLUENCE"
+    ]
   },
   "carl-johansson": {
     "name": "Carl Edvard Johansson",
@@ -205,7 +265,10 @@
     "avatar": "CEJ",
     "quote": "",
     "description": "Swedish metrologist whose gauge blocks made it possible to measure to two-millionths of an inch. Ford purchased his entire company in 1923.",
-    "tags": ["COLLABORATOR", "INNOVATOR"]
+    "tags": [
+      "COLLABORATOR",
+      "INNOVATOR"
+    ]
   },
   "clarence-avery": {
     "name": "Clarence Avery",
@@ -213,7 +276,9 @@
     "avatar": "CA",
     "quote": "",
     "description": "Calculated that Highland Park workers walked only 250 feet per shift after the moving line, down from four miles before. Quantified Ford's efficiency gains.",
-    "tags": ["EMPLOYEE"]
+    "tags": [
+      "EMPLOYEE"
+    ]
   },
   "fred-colvin": {
     "name": "Fred Colvin",
@@ -221,7 +286,9 @@
     "avatar": "FC",
     "quote": "",
     "description": "Toured Highland Park in 1914 and reported that workers lost an average of sixteen fingers per month on punch presses alone. Documented the human cost of mass production.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "milton-hershey": {
     "name": "Milton Hershey",
@@ -229,7 +296,9 @@
     "avatar": "MH",
     "quote": "",
     "description": "Discovered that amenities without adequate wages produced the same instability as Pullman. In 1937, when Hershey cut bonuses, workers struck and were beaten by company loyalists.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "albert-kahn": {
     "name": "Albert Kahn",
@@ -237,7 +306,9 @@
     "avatar": "AK",
     "quote": "",
     "description": "Designed the River Rouge complex buildings as machines rather than containers. His reinforced concrete and steel structures enabled Ford's vision of total integration. Also designed Edsel Ford's home.",
-    "tags": ["COLLABORATOR"]
+    "tags": [
+      "COLLABORATOR"
+    ]
   },
   "leonardo-del-vecchio": {
     "name": "Leonardo Del Vecchio",
@@ -245,7 +316,9 @@
     "avatar": "LV",
     "quote": "",
     "description": "Born too poor to keep, placed in an orphanage at seven. By 2018, Luxottica-Essilor controlled nearly everything in eyewear: manufacturing, retail, even vision insurance.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "steve-sasson": {
     "name": "Steve Sasson",
@@ -253,7 +326,9 @@
     "avatar": "SS",
     "quote": "",
     "description": "Built the first digital camera at Kodak in 1975. Executives asked how long before it matched film quality. He said fifteen to twenty years. They told him not to tell anyone.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "clayton-christensen": {
     "name": "Clayton Christensen",
@@ -261,7 +336,9 @@
     "avatar": "CC",
     "quote": "",
     "description": "Called the rigidity trap 'the innovator's dilemma': the practices that make companies successful in established markets make them vulnerable to disruptive innovations.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "john-antioco": {
     "name": "John Antioco",
@@ -269,7 +346,10 @@
     "avatar": "JA",
     "quote": "",
     "description": "In 2000, Netflix offered to sell for $50 million. Antioco struggled not to laugh. He later eliminated late fees, accepting $600 million in losses. The board forced him out anyway.",
-    "tags": ["REFERENCE", "CAUTIONARY"]
+    "tags": [
+      "REFERENCE",
+      "CAUTIONARY"
+    ]
   },
   "george-selden": {
     "name": "George Baldwin Selden",
@@ -277,7 +357,9 @@
     "avatar": "GBS",
     "quote": "",
     "description": "Never manufactured a car but held the patent on 'road locomotives.' Used continuation practice to time his patent to the emergence of the auto industry. Ford fought him for eight years.",
-    "tags": ["ANTAGONIST"]
+    "tags": [
+      "ANTAGONIST"
+    ]
   },
   "karl-benz": {
     "name": "Karl Benz",
@@ -285,7 +367,9 @@
     "avatar": "KB",
     "quote": "",
     "description": "Built the first true automobile in 1886. Owed nothing to Selden's paper patent despite Selden's claims of priority.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "gottlieb-daimler": {
     "name": "Gottlieb Daimler",
@@ -293,7 +377,9 @@
     "avatar": "GD",
     "quote": "",
     "description": "Developed the high-speed petrol engine independently of Benz. His work proved that Selden's patent covered obsolete technology.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "ransom-olds": {
     "name": "Ransom E. Olds",
@@ -301,7 +387,9 @@
     "avatar": "RO",
     "quote": "",
     "description": "Began mass production in 1901 with the curved-dash Oldsmobile. Proved the market for affordable automobiles existed before Ford entered it.",
-    "tags": ["COMPETITOR"]
+    "tags": [
+      "COMPETITOR"
+    ]
   },
   "frederic-smith": {
     "name": "Frederic L. Smith",
@@ -309,7 +397,9 @@
     "avatar": "FS",
     "quote": "",
     "description": "President of Olds Motor Works who led ALAM, the patent cartel that tried to exclude Ford from the industry. Ford's victory broke the cartel's power.",
-    "tags": ["ANTAGONIST"]
+    "tags": [
+      "ANTAGONIST"
+    ]
   },
   "ida-tarbell": {
     "name": "Ida Tarbell",
@@ -317,7 +407,9 @@
     "avatar": "IT",
     "quote": "",
     "description": "Her exposé of Standard Oil appeared just two years before Ford began fighting ALAM. Made fighting trusts heroic in the popular imagination.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "ralzemond-parker": {
     "name": "Ralzemond A. Parker",
@@ -325,7 +417,9 @@
     "avatar": "RP",
     "quote": "",
     "description": "Led Ford's legal team in the Selden patent fight. Developed the argument that Selden's Brayton-cycle engine was obsolete, winning the appeal in 1911.",
-    "tags": ["COLLABORATOR"]
+    "tags": [
+      "COLLABORATOR"
+    ]
   },
   "edmund-wise": {
     "name": "Edmund E. Wise",
@@ -333,7 +427,9 @@
     "avatar": "EW",
     "quote": "",
     "description": "Worked with Parker on the technical defense against the Selden patent. Proved that every car used Otto-cycle engines, not the Brayton-cycle Selden had patented.",
-    "tags": ["COLLABORATOR"]
+    "tags": [
+      "COLLABORATOR"
+    ]
   },
   "clausewitz": {
     "name": "Carl von Clausewitz",
@@ -341,7 +437,9 @@
     "avatar": "CVC",
     "quote": "",
     "description": "Distinguished between strategies of annihilation and strategies of exhaustion. Ford's approach to the Selden patent fight exemplified exhaustion strategy.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "eleanor-clay": {
     "name": "Eleanor Clay",
@@ -349,7 +447,9 @@
     "avatar": "EC",
     "quote": "",
     "description": "Niece of department store magnate J.L. Hudson. Married Edsel Ford in 1916, the day before the Dodge brothers filed their landmark lawsuit.",
-    "tags": ["FAMILY"]
+    "tags": [
+      "FAMILY"
+    ]
   },
   "eleanor-ford": {
     "name": "Eleanor Clay Ford",
@@ -357,7 +457,9 @@
     "avatar": "EF2",
     "quote": "He killed my husband. He will not kill my son.",
     "description": "Married Edsel Ford in 1916. After Edsel's death, she and Clara Ford forced Henry to install Henry Ford II as president, threatening to sell their shares if he refused.",
-    "tags": ["FAMILY"]
+    "tags": [
+      "FAMILY"
+    ]
   },
   "walter-reuther": {
     "name": "Walter Reuther",
@@ -365,7 +467,10 @@
     "avatar": "WR",
     "quote": "",
     "description": "UAW organizer beaten at the Battle of the Overpass in 1937. Later became UAW president and one of the most influential labor leaders in American history.",
-    "tags": ["ANTAGONIST", "LEADER"]
+    "tags": [
+      "ANTAGONIST",
+      "LEADER"
+    ]
   },
   "richard-frankensteen": {
     "name": "Richard Frankensteen",
@@ -373,7 +478,9 @@
     "avatar": "RF",
     "quote": "",
     "description": "Beaten alongside Reuther at the Battle of the Overpass. His coat was pulled over his head to blind him while Bennett's men kicked him in the kidneys.",
-    "tags": ["ANTAGONIST"]
+    "tags": [
+      "ANTAGONIST"
+    ]
   },
   "ernest-breech": {
     "name": "Ernest R. Breech",
@@ -381,7 +488,9 @@
     "avatar": "EB",
     "quote": "",
     "description": "Hired from GM subsidiary Bendix Aviation in 1946. Brought professional management methods to Ford: decentralization, financial controls, modern organizational structure.",
-    "tags": ["EXECUTIVE"]
+    "tags": [
+      "EXECUTIVE"
+    ]
   },
   "tex-thornton": {
     "name": "Charles 'Tex' Thornton",
@@ -389,7 +498,10 @@
     "avatar": "TT",
     "quote": "",
     "description": "Proposed that Ford hire his entire team of ten statistical control officers as a package. The 'Whiz Kids' would transform Ford Motor Company and American management.",
-    "tags": ["EMPLOYEE", "INNOVATOR"]
+    "tags": [
+      "EMPLOYEE",
+      "INNOVATOR"
+    ]
   },
   "robert-mcnamara": {
     "name": "Robert S. McNamara",
@@ -397,7 +509,10 @@
     "avatar": "RM",
     "quote": "",
     "description": "One of the Whiz Kids who became Ford's president, then Secretary of Defense under Kennedy and Johnson. Embodied both the promise and limits of quantitative management.",
-    "tags": ["EMPLOYEE", "LEADER"]
+    "tags": [
+      "EMPLOYEE",
+      "LEADER"
+    ]
   },
   "arjay-miller": {
     "name": "Arjay Miller",
@@ -405,7 +520,10 @@
     "avatar": "AM",
     "quote": "",
     "description": "Another Whiz Kid who eventually became Ford's president. Part of the team that saved the company from collapse in the late 1940s.",
-    "tags": ["EMPLOYEE", "LEADER"]
+    "tags": [
+      "EMPLOYEE",
+      "LEADER"
+    ]
   },
   "j-edward-lundy": {
     "name": "J. Edward Lundy",
@@ -413,7 +531,9 @@
     "avatar": "JL",
     "quote": "",
     "description": "Served as Ford's chief financial officer and remained with the company until 1979, longer than any other Whiz Kid. Built Ford's financial control systems.",
-    "tags": ["EMPLOYEE"]
+    "tags": [
+      "EMPLOYEE"
+    ]
   },
   "larry-page": {
     "name": "Larry Page",
@@ -421,7 +541,9 @@
     "avatar": "LP",
     "quote": "",
     "description": "With Sergey Brin, structured Google with dual-class shares to maintain founder control. Solved the same problem Ford faced with the Dodges.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "sergey-brin": {
     "name": "Sergey Brin",
@@ -429,7 +551,9 @@
     "avatar": "SB",
     "quote": "",
     "description": "Co-architect of Google's dual-class share structure. Demonstrates how modern founders avoid Ford's $106 million buyout solution.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "ernest-kanzler": {
     "name": "Ernest Kanzler",
@@ -437,7 +561,10 @@
     "avatar": "EK",
     "quote": "",
     "description": "Wrote an eight-page memorandum in 1926 urging Ford to modernize the Model T. Ford read the memo and fired him. The Model T was discontinued the following year.",
-    "tags": ["FAMILY", "EXECUTIVE"]
+    "tags": [
+      "FAMILY",
+      "EXECUTIVE"
+    ]
   },
   "frank-lloyd-wright": {
     "name": "Frank Lloyd Wright",
@@ -445,7 +572,9 @@
     "avatar": "FLW",
     "quote": "The most beautiful car in the world.",
     "description": "Called the 1940 Lincoln Continental, which Edsel personally supervised, 'the most beautiful car in the world.' The car was selected for MoMA's permanent collection.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "james-kilpatrick": {
     "name": "James Kilpatrick",
@@ -453,7 +582,9 @@
     "avatar": "JK",
     "quote": "",
     "description": "Detroit News photographer who escaped the Battle of the Overpass with his film. His photographs ran in newspapers across the country, transforming public perception of Ford.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "c-harold-wills": {
     "name": "C. Harold Wills",
@@ -461,7 +592,10 @@
     "avatar": "HW",
     "quote": "",
     "description": "Ford's first chief engineer who designed the Model T engine and introduced vanadium steel to American automaking. His metallurgical expertise gave Ford cars their legendary durability.",
-    "tags": ["EMPLOYEE", "INNOVATOR"]
+    "tags": [
+      "EMPLOYEE",
+      "INNOVATOR"
+    ]
   },
   "ingvar-kamprad": {
     "name": "Ingvar Kamprad",
@@ -469,7 +603,9 @@
     "avatar": "IK",
     "quote": "",
     "description": "Founded IKEA and, like Ford, democratized access to goods previously reserved for the wealthy through radical cost reduction and vertical integration.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "george-pullman": {
     "name": "George Pullman",
@@ -477,7 +613,9 @@
     "avatar": "GP",
     "quote": "",
     "description": "Built a company town for his railroad car workers that became a cautionary tale in paternalistic management when workers struck in 1894.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "eugene-debs": {
     "name": "Eugene Debs",
@@ -485,7 +623,9 @@
     "avatar": "ED",
     "quote": "",
     "description": "Led the American Railway Union during the Pullman Strike and later ran for president five times as a socialist. Represented the labor movement Ford both courted and fought.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "james-couzens": {
     "name": "James Couzens",
@@ -493,7 +633,10 @@
     "avatar": "JC",
     "quote": "",
     "description": "Ford Motor Company's business manager who handled the commercial side while Ford focused on engineering. Later became a U.S. Senator. His $2,500 investment returned over $30 million.",
-    "tags": ["PARTNER", "EXECUTIVE"]
+    "tags": [
+      "PARTNER",
+      "EXECUTIVE"
+    ]
   },
   "henry-ford": {
     "name": "Henry Ford",
@@ -501,7 +644,9 @@
     "avatar": "HF",
     "quote": "Whether you think you can, or you think you can't — you're right.",
     "description": "Revolutionized manufacturing with the moving assembly line and the $5 day wage. Built the Model T that put America on wheels, then nearly destroyed his company by refusing to adapt.",
-    "tags": ["LEGEND"]
+    "tags": [
+      "LEGEND"
+    ]
   },
   "russell-ostrander": {
     "name": "Russell Ostrander",
@@ -509,7 +654,9 @@
     "avatar": "RO",
     "quote": "",
     "description": "The judge who initially ruled in favor of ALAM in the Selden Patent case, finding Ford guilty of patent infringement. The decision was later overturned on appeal.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "lynn-stout": {
     "name": "Lynn Stout",
@@ -517,7 +664,9 @@
     "avatar": "LS",
     "quote": "",
     "description": "Cornell Law professor who argued that Dodge v. Ford Motor Co. is widely misunderstood and that shareholder primacy doctrine is not as legally settled as commonly believed.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "horace-rackham": {
     "name": "Horace Rackham",
@@ -525,7 +674,9 @@
     "avatar": "HR",
     "quote": "",
     "description": "One of Ford Motor Company's original investors whose $5,000 investment became worth millions. His banker had advised against the investment.",
-    "tags": ["INVESTOR"]
+    "tags": [
+      "INVESTOR"
+    ]
   },
   "john-anderson": {
     "name": "John Anderson",
@@ -533,7 +684,9 @@
     "avatar": "JA",
     "quote": "",
     "description": "One of the original investors in Ford Motor Company who provided crucial early capital that enabled Ford to begin production.",
-    "tags": ["INVESTOR"]
+    "tags": [
+      "INVESTOR"
+    ]
   },
   "john-gray": {
     "name": "John Gray",
@@ -541,7 +694,9 @@
     "avatar": "JG",
     "quote": "",
     "description": "Served as the first president of Ford Motor Company, lending his credibility as a banker to the fledgling enterprise while Ford served as vice president.",
-    "tags": ["EXECUTIVE"]
+    "tags": [
+      "EXECUTIVE"
+    ]
   },
   "rosetta-hauss": {
     "name": "Rosetta Hauss",
@@ -549,7 +704,9 @@
     "avatar": "RH",
     "quote": "",
     "description": "One of the Ford Motor Company employees who demonstrated the human impact of Ford's labor and management policies.",
-    "tags": ["EMPLOYEE"]
+    "tags": [
+      "EMPLOYEE"
+    ]
   },
   "walter-chrysler": {
     "name": "Walter Chrysler",
@@ -557,7 +714,9 @@
     "avatar": "WC",
     "quote": "",
     "description": "Left General Motors to found Chrysler Corporation, creating the third member of Detroit's Big Three. His company offered another competitive challenge to Ford's dominance.",
-    "tags": ["RIVAL"]
+    "tags": [
+      "RIVAL"
+    ]
   },
   "billy-durant": {
     "name": "Billy Durant",
@@ -565,7 +724,9 @@
     "avatar": "BD",
     "quote": "",
     "description": "Founded General Motors through aggressive acquisitions, creating the multi-brand conglomerate that would eventually surpass Ford. His approach was the antithesis of Ford's single-product focus.",
-    "tags": ["RIVAL"]
+    "tags": [
+      "RIVAL"
+    ]
   },
   "pierre-dupont": {
     "name": "Pierre du Pont",
@@ -573,7 +734,9 @@
     "avatar": "PD",
     "quote": "",
     "description": "Led DuPont's investment in General Motors and served as GM's chairman. Provided the financial backing and governance structure that enabled Sloan's management revolution.",
-    "tags": ["RIVAL"]
+    "tags": [
+      "RIVAL"
+    ]
   },
   "harley-earl": {
     "name": "Harley Earl",
@@ -581,7 +744,10 @@
     "avatar": "HE",
     "quote": "",
     "description": "Created General Motors' Art and Colour Section, the first automotive design department. His emphasis on styling and annual model changes exploited Ford's refusal to evolve the Model T.",
-    "tags": ["RIVAL", "INNOVATOR"]
+    "tags": [
+      "RIVAL",
+      "INNOVATOR"
+    ]
   },
   "lawrence-fisher": {
     "name": "Lawrence Fisher",
@@ -589,7 +755,9 @@
     "avatar": "LF",
     "quote": "",
     "description": "One of the Fisher brothers whose Fisher Body Corporation became integral to GM. Their closed-body manufacturing capability gave GM an advantage Ford lacked.",
-    "tags": ["RIVAL"]
+    "tags": [
+      "RIVAL"
+    ]
   },
   "bob-gregorie": {
     "name": "Bob Gregorie",
@@ -597,7 +765,10 @@
     "avatar": "BG",
     "quote": "",
     "description": "Ford Motor Company's chief designer who worked closely with Edsel Ford on landmark designs including the Lincoln Continental and the 1949 Ford.",
-    "tags": ["EMPLOYEE", "INNOVATOR"]
+    "tags": [
+      "EMPLOYEE",
+      "INNOVATOR"
+    ]
   },
   "jack-reith": {
     "name": "Jack Reith",
@@ -605,7 +776,9 @@
     "avatar": "JR",
     "quote": "",
     "description": "A Whiz Kid-era Ford executive who helped modernize Ford's product planning and marketing operations during the company's postwar transformation.",
-    "tags": ["EMPLOYEE"]
+    "tags": [
+      "EMPLOYEE"
+    ]
   },
   "curtis-lemay": {
     "name": "Curtis LeMay",
@@ -613,7 +786,9 @@
     "avatar": "CL",
     "quote": "",
     "description": "Commanded the bombing campaigns of WWII and later led Strategic Air Command. The Whiz Kids who saved Ford had served under officers like LeMay, bringing military statistical methods to business.",
-    "tags": ["REFERENCE"]
+    "tags": [
+      "REFERENCE"
+    ]
   },
   "alan-gilmour": {
     "name": "Alan Gilmour",
@@ -621,7 +796,10 @@
     "avatar": "AG",
     "quote": "",
     "description": "Longtime Ford executive who served as CFO and vice chairman, representing the professional management class that Henry Ford II installed to replace the founder's personal rule.",
-    "tags": ["EMPLOYEE", "EXECUTIVE"]
+    "tags": [
+      "EMPLOYEE",
+      "EXECUTIVE"
+    ]
   },
   "lee-iacocca": {
     "name": "Lee Iacocca",
@@ -629,6 +807,239 @@
     "avatar": "LI",
     "quote": "",
     "description": "Rose through Ford's ranks to become president, creating the Mustang. Later fired by Henry Ford II, he rescued Chrysler from bankruptcy, becoming one of America's most famous executives.",
-    "tags": ["EMPLOYEE", "LEADER"]
+    "tags": [
+      "EMPLOYEE",
+      "LEADER"
+    ]
+  },
+  "morgan": {
+    "name": "Morgan",
+    "role": "J.",
+    "avatar": "MO",
+    "quote": "",
+    "description": "J.P. Morgan, who controlled the capital markets chokepoint through which every ambitious industrialist had to pass, extracting underwriting spreads as the toll for his credibility",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "lew-wasserman": {
+    "name": "Lew Wasserman",
+    "role": "Chairman of MCA/Universal Studios (1913-2002)",
+    "avatar": "LW",
+    "quote": "",
+    "description": "Transformed MCA from a talent booking agency into a vertically integrated entertainment empire. The flow of creative talent through Hollywood ran through Wasserman's office—studios that wanted his A-list star had to accept his B-list director.",
+    "tags": [
+      "OPERATOR"
+    ]
+  },
+  "waste-management": {
+    "name": "Waste Management",
+    "role": "Waste Management",
+    "avatar": "WM",
+    "quote": "",
+    "description": "The largest waste services company in the United States, whose real competitive advantage is not its trucks or landfills but its control of the waste stream itself",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "asa-candler": {
+    "name": "Asa Candler",
+    "role": "Second owner of Coca-Cola",
+    "avatar": "AC",
+    "quote": "",
+    "description": "Invented the manufacturer's coupon by mailing free Coke tickets to every address in Atlanta, creating a distribution channel that bypassed the retail chokepoint entirely. Every direct-to-consumer campaign descends from Candler's free Coke tickets.",
+    "tags": [
+      "INNOVATOR"
+    ]
+  },
+  "walt-disney": {
+    "name": "Walt Disney",
+    "role": "Founder of the Walt Disney Company",
+    "avatar": "WD",
+    "quote": "",
+    "description": "Created the Reedy Creek Improvement District in 1967 as a private government controlling building codes, utilities, and land use around Walt Disney World. Built the chokepoint so deep into Florida's legal infrastructure that even a governor with a grudge couldn't dislodge it.",
+    "tags": [
+      "INNOVATOR"
+    ]
+  },
+  "adam-smith": {
+    "name": "Adam Smith",
+    "role": "Scottish economist and philosopher (1723-1790)",
+    "avatar": "AS",
+    "quote": "",
+    "description": "Recognized the danger of concentrated trade in 1776, comparing it to a great blood vessel artificially swelled beyond its natural dimensions. A blockage in a major vessel causes convulsions or death.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "jorge-paulo-lemann": {
+    "name": "Jorge Paulo Lemann",
+    "role": "Brazilian-born co-founder of 3G Capital",
+    "avatar": "JL",
+    "quote": "",
+    "description": "Waited five years to acquire Brahma brewing company, then closed the deal in one week when owners panicked. The initial $80 million investment became over $60 billion through systematic consolidation into AB InBev.",
+    "tags": [
+      "OPERATOR"
+    ]
+  },
+  "kublai-khan": {
+    "name": "Kublai Khan",
+    "role": "Mongol emperor (1215-1294)",
+    "avatar": "KK",
+    "quote": "",
+    "description": "Defeated his brother Ariq Boke not through battlefield superiority but by systematically cutting supply lines. The army that could not be defeated in combat was defeated by empty granaries.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "calakmul": {
+    "name": "Calakmul",
+    "role": "The 'Snake Kingdom' of ancient Maya civilization",
+    "avatar": "CA",
+    "quote": "",
+    "description": "Spent over a century methodically encircling rival Tikal by converting allies, controlling trade routes, and cutting off diplomatic options. The strategy was systematic asphyxiation rather than military conquest—Jeff Bezos's retail playbook with obsidian weapons.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "dee-hock": {
+    "name": "Dee Hock",
+    "role": "Founder and first CEO of Visa",
+    "avatar": "DH",
+    "quote": "",
+    "description": "Designed Visa as a non-stock membership corporation with irrevocable, non-transferable participation rights. Built an ownership structure specifically engineered to be unseizable—no hostile acquirer could buy it because there was nothing to buy.",
+    "tags": [
+      "INNOVATOR"
+    ]
+  },
+  "joe-liemandt": {
+    "name": "Joe Liemandt",
+    "role": "Founder of Trilogy Software",
+    "avatar": "JL",
+    "quote": "",
+    "description": "Discovered what zero alternatives looks like in practice: when a prospect asked about pricing, he tripled his price on the spot. 'The price has tripled. It's $300,000.' The buyer's response: 'Done.'",
+    "tags": [
+      "OPERATOR"
+    ]
+  },
+  "transdigm": {
+    "name": "TransDigm",
+    "role": "TransDigm",
+    "avatar": "TR",
+    "quote": "",
+    "description": "Aerospace components manufacturer that produces proprietary $200 widgets installed on $100 million aircraft, creating pricing power vastly disproportionate to its product size",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "morris-chang": {
+    "name": "Morris Chang",
+    "role": "Founder of Taiwan Semiconductor Manufacturing Company",
+    "avatar": "MC",
+    "quote": "",
+    "description": "Invented the pure-play foundry model: a company that manufactures chips designed by others but designs none of its own. Over four decades, TSMC became the single most critical chokepoint in advanced semiconductor manufacturing.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "bernard-arnault": {
+    "name": "Bernard Arnault",
+    "role": "Chairman of LVMH",
+    "avatar": "BA",
+    "quote": "",
+    "description": "Built the world's largest luxury conglomerate by controlling both manufacturing upstream and distribution downstream. 'If you control your factories, you control your quality. If you control your distribution, you control your image.'",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "henri-racamier": {
+    "name": "Henri Racamier",
+    "role": "Former CEO of Louis Vuitton",
+    "avatar": "HR",
+    "quote": "",
+    "description": "Grew Louis Vuitton from 2 stores and $12 million in sales to 125 stores and over $1 billion in revenue by identifying that retailers, not producers, were capturing the value. His solution was vertical integration forward into retail.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "judy-faulkner": {
+    "name": "Judy Faulkner",
+    "role": "Founder of Epic Systems",
+    "avatar": "JF",
+    "quote": "",
+    "description": "Built the dominant electronic medical records platform by choosing an industry so messy and regulated that competitors with more capital repeatedly failed to crack it. A private company in Verona, Wisconsin now holds more data on American patients than the federal government.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "constantine-the-great": {
+    "name": "Constantine the Great",
+    "role": "Roman emperor (272-337 AD)",
+    "avatar": "CG",
+    "quote": "",
+    "description": "Founded Constantinople at the narrowest crossing point between Europe and Asia, creating a chokepoint that controlled East-West trade for over a thousand years. The city held longer than any other capital in Western history.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "john-ruskin": {
+    "name": "John Ruskin",
+    "role": "Victorian art critic and social commentator (1819-1900)",
+    "avatar": "JR",
+    "quote": "",
+    "description": "Drew the distinction between the medieval Crag Baron, who physically blocked roads to extract tolls, and the modern Money-bag Baron, who achieves the same extraction through financial control of freight rates. Standard Oil was Ruskin's Money-bag Baron made corporate.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "henry-demarest-lloyd": {
+    "name": "Henry Demarest Lloyd",
+    "role": "American journalist and reformer (1847-1903)",
+    "avatar": "HL",
+    "quote": "",
+    "description": "Author of Wealth Against Commonwealth, the first major expose of Standard Oil's monopoly practices. Captured the structural logic of industrial monopoly in a single sentence: 'Monopoly anywhere must be monopoly everywhere.'",
+    "tags": [
+      "CHRONICLER"
+    ]
+  },
+  "henry-flagler": {
+    "name": "Henry Flagler",
+    "role": "Rockefeller's closest business partner and Standard Oil co-architect",
+    "avatar": "HF",
+    "quote": "",
+    "description": "Architect of Standard Oil's railroad negotiations who converted volume guarantees into structural cost advantages no competitor could replicate. Later built the Florida East Coast Railway, extending infrastructure-control logic to an entire state.",
+    "tags": [
+      "INNOVATOR"
+    ]
+  },
+  "john-t-flynn": {
+    "name": "John T. Flynn",
+    "role": "American journalist and biographer (1882-1964)",
+    "avatar": "JF",
+    "quote": "",
+    "description": "Author of God's Gold, one of the most psychologically penetrating accounts of Rockefeller's business methods. Captured the organizational genius that biographers focused on ethics tended to miss.",
+    "tags": [
+      "CHRONICLER"
+    ]
+  },
+  "karl-wittfogel": {
+    "name": "Karl Wittfogel",
+    "role": "German-American historian and sinologist (1896-1988)",
+    "avatar": "KW",
+    "quote": "",
+    "description": "Theorized that control of large-scale irrigation systems gave rise to despotic 'hydraulic empires' in ancient Mesopotamia, Egypt, and China. His framework connects water control to political power across civilizations.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "jp-morgan": {
+    "name": "J.P. Morgan",
+    "role": "Financier and banking titan (1837-1913)",
+    "avatar": "JM",
+    "quote": "",
+    "description": "Controlled the capital markets chokepoint through which every ambitious industrialist had to pass. His chokepoint was relational: the bottleneck of credibility in a market where most participants could not independently evaluate what they were buying.",
+    "tags": [
+      "SUBJECT"
+    ]
   }
 }

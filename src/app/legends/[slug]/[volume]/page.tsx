@@ -24,6 +24,7 @@ import { Playbook } from "@/components/Playbook";
 import { Footnote } from "@/components/Footnote";
 import { Interlude } from "@/components/Interlude";
 import { ConceptLink } from "@/components/ConceptLink";
+import { SourceRef } from "@/components/SourceRef";
 import { getDisplayName, formatMotif } from "@/lib/taxonomy";
 import "@/components/volume/volume-page.css";
 
@@ -47,6 +48,12 @@ interface FrontmatterMarginalia {
   content: string;
 }
 
+interface FrontmatterSource {
+  id: number;
+  citation: string;
+  dbId?: string;
+}
+
 // Get the content directory path
 function getContentPath() {
   return path.join(process.cwd(), "content", "legends");
@@ -56,40 +63,39 @@ function getContentPath() {
 // eslint-disable-next-line prefer-const
 let extractedSectionIds: Map<string, string> = new Map();
 
-// MDX components for rendering
-const components = {
-  DropCap,
-  PersonLink,
-  Marginalia,
-  PullQuote,
-  ThroughLine,
-  Playbook,
-  Footnote,
-  Interlude,
-  ConceptLink,
-  // SectionTitle component receives id directly as prop
-  SectionTitle: ({ id, children }: { id: string; children: React.ReactNode }) => (
-    <h2 className="section-title" id={id} data-section={id}>
-      {children}
-    </h2>
-  ),
-  // Fallback h2 uses SectionHeading component
-  h2: (props: React.ComponentPropsWithoutRef<"h2">) => (
-    <SectionHeading>{props.children}</SectionHeading>
-  ),
-  p: (props: React.ComponentPropsWithoutRef<"p">) => <p {...props} />,
-};
+// Build MDX components with sources data bound to SourceRef
+function buildComponents(sources: FrontmatterSource[]) {
+  return {
+    DropCap,
+    PersonLink,
+    Marginalia,
+    PullQuote,
+    ThroughLine,
+    Playbook,
+    Footnote,
+    Interlude,
+    ConceptLink,
+    SourceRef: (props: { id: number }) => (
+      <SourceRef id={props.id} sources={sources} />
+    ),
+    // h2 renders section titles with ID from SectionContext
+    h2: (props: React.ComponentPropsWithoutRef<"h2">) => (
+      <SectionHeading>{props.children}</SectionHeading>
+    ),
+  };
+}
 
 // Preprocess MDX content to convert {#id} header syntax to SectionTitle component
 function preprocessMDX(content: string): string {
   extractedSectionIds.clear();
 
-  // Replace ## Title {#id} with <SectionTitle id="id">Title</SectionTitle>
+  // Strip {#id} from ## headings — MDX will render them as normal h2 elements,
+  // and the h2 component override + SectionContext will map titles to IDs
   return content.replace(
     /^(#{2})\s+(.+?)\s*\{#([a-z0-9-]+)\}\s*$/gm,
     (_, _hashes, title, id) => {
       extractedSectionIds.set(title.trim(), id);
-      return `<SectionTitle id="${id}">${title.trim()}</SectionTitle>`;
+      return `## ${title.trim()}`;
     }
   );
 }
@@ -108,6 +114,10 @@ async function getVolumeData(slug: string, volume: string) {
 
   // Preprocess to remove {#id} syntax that MDX can't parse
   const processedContent = preprocessMDX(content);
+
+  // Build components with sources data bound to SourceRef
+  const sources: FrontmatterSource[] = data.sources || [];
+  const components = buildComponents(sources);
 
   // Compile MDX content
   const { content: compiledContent } = await compileMDX({
@@ -259,6 +269,18 @@ export default async function VolumePageRoute({ params }: PageProps) {
 
   const sections = frontmatter.sections || [];
 
+  // Build section note counts and IDs for MarginaliaProvider
+  const sectionNoteCounts: Record<string, number> = {};
+  const sectionNoteIds: Record<string, string[]> = {};
+  for (const m of marginalia) {
+    if (!sectionNoteCounts[m.section]) {
+      sectionNoteCounts[m.section] = 0;
+      sectionNoteIds[m.section] = [];
+    }
+    sectionNoteCounts[m.section]++;
+    sectionNoteIds[m.section].push(m.id);
+  }
+
   const volumes = indexData?.volumes || [];
   const currentVolumeIndex = volumes.findIndex(
     (v: { slug: string }) => v.slug === volume
@@ -272,7 +294,7 @@ export default async function VolumePageRoute({ params }: PageProps) {
 
   return (
     <SectionProvider sections={sections}>
-      <MarginaliaProvider>
+      <MarginaliaProvider sectionNoteCounts={sectionNoteCounts} sectionNoteIds={sectionNoteIds}>
         <div
           className="volume-page"
           style={
@@ -308,6 +330,12 @@ export default async function VolumePageRoute({ params }: PageProps) {
             quoteAttribution={quoteAttribution}
             archetypeColor={archetypeColor}
             pdfUrl={pdfUrl}
+            hook={frontmatter.hook}
+            legendsAnalyzed={frontmatter.legendsAnalyzed}
+            historicalRange={frontmatter.historicalRange}
+            industriesSpanned={frontmatter.industriesSpanned}
+            sourcesCount={frontmatter.sourcesCount}
+            isCrossCutting={frontmatter.archetype === "CROSS_CUTTING"}
           />
 
           {/* Main 3-Column Layout */}
