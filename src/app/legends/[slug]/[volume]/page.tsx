@@ -311,6 +311,7 @@ export default async function VolumePageRoute({ params }: PageProps) {
             legendName={legendName}
             legendSlug={slug}
             archetypeColor={archetypeColor}
+            isCrossCutting={frontmatter.archetype === "CROSS_CUTTING"}
           />
 
           {/* Cover Section */}
@@ -348,6 +349,7 @@ export default async function VolumePageRoute({ params }: PageProps) {
               disciplines={disciplines}
               motifs={motifs}
               archetypeColor={archetypeColor}
+              isCrossCutting={frontmatter.archetype === "CROSS_CUTTING"}
             />
 
             {/* Center - Article Content */}
@@ -370,6 +372,7 @@ export default async function VolumePageRoute({ params }: PageProps) {
             legendName={legendName}
             prevVolume={prevVolume}
             nextVolume={nextVolume}
+            isCrossCutting={frontmatter.archetype === "CROSS_CUTTING"}
           />
 
           <Footer />

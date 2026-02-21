@@ -7,12 +7,14 @@ interface VolumeStickyHeaderProps {
   legendName: string;
   legendSlug: string;
   archetypeColor: string;
+  isCrossCutting?: boolean;
 }
 
 export function VolumeStickyHeader({
   legendName,
   legendSlug,
   archetypeColor,
+  isCrossCutting = false,
 }: VolumeStickyHeaderProps) {
   const [isVisible, setIsVisible] = useState(false);
   const [progress, setProgress] = useState(0);
@@ -67,7 +69,7 @@ export function VolumeStickyHeader({
           } as React.CSSProperties
         }
       >
-        <Link href={`/legends/${legendSlug}`} className="header-back">
+        <Link href={isCrossCutting ? "/archetypes" : `/legends/${legendSlug}`} className="header-back">
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -76,7 +78,7 @@ export function VolumeStickyHeader({
           >
             <path d="M19 12H5M12 19l-7-7 7-7" />
           </svg>
-          Back to {legendName}
+          {isCrossCutting ? "Cross-Cutting Analyses" : `Back to ${legendName}`}
         </Link>
 
         <span className="header-title">{legendName}</span>

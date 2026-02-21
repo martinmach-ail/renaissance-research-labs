@@ -867,7 +867,8 @@
   border-radius: 8px;
   padding: 12px 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
-  animation: sourceCardIn 0.15s ease;
+  opacity: 1;
+  animation: sourceCardIn 0.2s ease;
   pointer-events: auto;
 }
 
@@ -1175,111 +1176,6 @@
   font-size: 11px;
   color: var(--text-gray);
   line-height: 1.5;
-}
-
-/* ============================================
-   PERSON HOVER CARD
-   ============================================ */
-.person-card {
-  position: fixed;
-  width: 300px;
-  background: white;
-  border-radius: 6px;
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(0, 0, 0, 0.04);
-  padding: var(--space-lg);
-  z-index: 1001;
-  opacity: 0;
-  transform: translateY(8px);
-  transition: all 0.2s ease;
-  pointer-events: none;
-}
-
-.person-card.visible {
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
-}
-
-.person-card-header {
-  display: flex;
-  gap: var(--space-md);
-  margin-bottom: var(--space-md);
-  padding-bottom: var(--space-md);
-  border-bottom: 1px solid var(--border-lighter);
-}
-
-.person-card-avatar {
-  width: 44px;
-  height: 44px;
-  background: var(--scholia-cream-dark);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-ui);
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--scholia-navy);
-  flex-shrink: 0;
-}
-
-.person-card-info h4 {
-  font-family: var(--font-display);
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--scholia-navy);
-  margin-bottom: 2px;
-}
-
-.person-card-info span {
-  font-family: var(--font-ui);
-  font-size: 11px;
-  color: var(--text-light);
-}
-
-.person-card-quote {
-  font-family: var(--font-body);
-  font-size: 13px;
-  font-style: italic;
-  color: var(--text-gray);
-  margin-bottom: var(--space-md);
-  line-height: 1.5;
-  text-align: justify;
-}
-
-.person-card-description {
-  font-family: var(--font-ui);
-  font-size: 12px;
-  font-style: normal;
-  color: var(--text-gray);
-  line-height: 1.55;
-  margin-bottom: var(--space-md);
-  text-align: justify;
-}
-
-.person-card-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.person-card-tag {
-  font-family: var(--font-ui);
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 4px 8px;
-  border-radius: 2px;
-  background: var(--scholia-cream);
-  color: var(--text-gray);
-  border: 1px solid var(--border-lighter);
-}
-
-.person-card-tag--relationship {
-  background: var(--archetype-primary-muted);
-  border-color: rgba(202, 138, 4, 0.3);
-  color: var(--archetype-primary-dark);
 }
 
 /* ============================================
@@ -2007,7 +1903,7 @@
   cursor: default;
 }
 
-/* Person Card (Hover) */
+/* Person Card (Hover) — rendered via createPortal, not CSS class toggle */
 .person-card {
   width: 300px;
   background: white;
@@ -2015,7 +1911,8 @@
   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(0, 0, 0, 0.04);
   padding: var(--space-lg);
   z-index: 9999;
-  animation: cardFadeIn 0.15s ease;
+  opacity: 1;
+  animation: cardFadeIn 0.2s ease;
   pointer-events: auto;
 }
 

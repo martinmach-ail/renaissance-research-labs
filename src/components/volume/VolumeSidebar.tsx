@@ -14,6 +14,7 @@ interface VolumeSidebarProps {
   disciplines?: string[];
   motifs?: string[];
   archetypeColor: string;
+  isCrossCutting?: boolean;
 }
 
 export function VolumeSidebar({
@@ -23,6 +24,7 @@ export function VolumeSidebar({
   disciplines = [],
   motifs = [],
   archetypeColor,
+  isCrossCutting = false,
 }: VolumeSidebarProps) {
   const [activeSection, setActiveSection] = useState<string>("");
 
@@ -73,7 +75,7 @@ export function VolumeSidebar({
     >
       {/* Table of Contents */}
       <div className="sidebar-section">
-        <div className="sidebar-label">In This Dossier</div>
+        <div className="sidebar-label">{isCrossCutting ? "In This Analysis" : "In This Dossier"}</div>
         <ul className="toc-list">
           {tocItems.map((item) => (
             <li key={item.id} className="toc-item">
@@ -89,18 +91,20 @@ export function VolumeSidebar({
         </ul>
       </div>
 
-      {/* Archetypes */}
-      <div className="sidebar-section">
-        <div className="sidebar-label">Archetypes</div>
-        <div className="sidebar-tags">
-          <span className="sidebar-tag sidebar-tag--archetype">{archetype}</span>
-          {secondaryArchetypes.map((arch) => (
-            <span key={arch} className="sidebar-tag">
-              {arch}
-            </span>
-          ))}
+      {/* Archetypes — hide for cross-cutting volumes which don't have archetypes */}
+      {!isCrossCutting && archetype && (
+        <div className="sidebar-section">
+          <div className="sidebar-label">Archetypes</div>
+          <div className="sidebar-tags">
+            <span className="sidebar-tag sidebar-tag--archetype">{archetype}</span>
+            {secondaryArchetypes.map((arch) => (
+              <span key={arch} className="sidebar-tag">
+                {arch}
+              </span>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Disciplines */}
       {disciplines.length > 0 && (

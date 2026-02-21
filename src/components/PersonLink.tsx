@@ -54,7 +54,7 @@ export function PersonLink({ id, children }: PersonLinkProps) {
   }, []);
 
   const hide = useCallback(() => {
-    timerRef.current = setTimeout(() => setVisible(false), 400);
+    timerRef.current = setTimeout(() => setVisible(false), 1200);
   }, []);
 
   const keepOpen = useCallback(() => {

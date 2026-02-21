@@ -7,6 +7,7 @@ interface VolumeNavigationProps {
   legendName: string;
   prevVolume?: { slug: string; title: string };
   nextVolume?: { slug: string; title: string };
+  isCrossCutting?: boolean;
 }
 
 export function VolumeNavigation({
@@ -14,13 +15,14 @@ export function VolumeNavigation({
   legendName,
   prevVolume: _prevVolume, // eslint-disable-line @typescript-eslint/no-unused-vars
   nextVolume,
+  isCrossCutting = false,
 }: VolumeNavigationProps) {
   return (
     <section className="volume-navigation">
       <div className="volume-navigation-container">
         {/* Back to Index - Always show */}
         <Link
-          href={`/legends/${legendSlug}`}
+          href={isCrossCutting ? "/archetypes" : `/legends/${legendSlug}`}
           className="volume-nav-button volume-nav-button--back"
         >
           <svg
@@ -32,7 +34,7 @@ export function VolumeNavigation({
           >
             <path d="M19 12H5M12 19l-7-7 7-7" />
           </svg>
-          <span>{legendName} Index</span>
+          <span>{isCrossCutting ? "Back to Cross-Cutting Analyses" : `${legendName} Index`}</span>
         </Link>
 
         {/* Next Volume - Only show if exists */}

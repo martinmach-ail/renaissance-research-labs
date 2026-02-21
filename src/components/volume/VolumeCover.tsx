@@ -65,7 +65,7 @@ export function VolumeCover({
     >
       {/* Back to Legend Index Button */}
       <Link
-        href={`/legends/${legendSlug}`}
+        href={isCrossCutting ? "/archetypes" : `/legends/${legendSlug}`}
         className="cover-back-button"
         style={{
           position: "absolute",
@@ -86,7 +86,7 @@ export function VolumeCover({
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M19 12H5M12 19l-7-7 7-7" />
         </svg>
-        Back to {legendName} Index
+        {isCrossCutting ? "Back to Cross-Cutting Analyses" : `Back to ${legendName} Index`}
       </Link>
       <div className="cover-content">
         {/* Illustration */}

@@ -63,8 +63,8 @@ export function MarginaliaSidebar({ items, archetypeColor = '#CA8A04' }: Margina
     return item.title;
   };
 
-  // Truncate long content for the sidebar
-  const truncateContent = (text: string, maxLen: number = 280): string => {
+  // Truncate very long content for the sidebar (generous limit to avoid cutoff)
+  const truncateContent = (text: string, maxLen: number = 800): string => {
     if (text.length <= maxLen) return text;
     const truncated = text.substring(0, maxLen);
     const lastSpace = truncated.lastIndexOf(' ');
