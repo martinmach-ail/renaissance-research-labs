@@ -24,7 +24,7 @@ export function SourceRef({ id }: SourceRefProps) {
     };
   }, []);
 
-  const source = sources.find((s) => s.id === id);
+  const source = sources.find((s) => Number(s.id) === Number(id));
 
   const show = useCallback(() => {
     if (timerRef.current) clearTimeout(timerRef.current);
