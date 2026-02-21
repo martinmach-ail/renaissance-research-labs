@@ -21,12 +21,12 @@
   },
   "warren-buffett": {
     "name": "Warren Buffett",
-    "role": "Berkshire Hathaway CEO",
+    "role": "Chairman of Berkshire Hathaway",
     "avatar": "WB",
     "quote": "",
-    "description": "Still lives in the Omaha house he bought in 1958. Another example of authentic indifference to personal wealth that creates trust.",
+    "description": "Borrowed a metaphor from baseball to describe patience in investing: unlike baseball, there are no called strikes. The investor can watch hundreds of pitches without swinging and wait for the fat pitch over center plate.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "sam-zell": {
@@ -639,12 +639,12 @@
   },
   "henry-ford": {
     "name": "Henry Ford",
-    "role": "Founder, Ford Motor Company",
+    "role": "Founder of Ford Motor Company (1863-1947)",
     "avatar": "HF",
     "quote": "Whether you think you can, or you think you can't — you're right.",
-    "description": "Revolutionized manufacturing with the moving assembly line and the $5 day wage. Built the Model T that put America on wheels, then nearly destroyed his company by refusing to adapt.",
+    "description": "Doubled wages to $5 per day to eliminate 370% annual turnover, staffed his factory with unskilled workers to force process simplification, and then held the Model T unchanged for nineteen years until the market forced a six-month shutdown.",
     "tags": [
-      "LEGEND"
+      "SUBJECT"
     ]
   },
   "russell-ostrander": {
@@ -933,10 +933,10 @@
   },
   "morris-chang": {
     "name": "Morris Chang",
-    "role": "Founder of Taiwan Semiconductor Manufacturing Company",
+    "role": "Founder of TSMC",
     "avatar": "MC",
     "quote": "",
-    "description": "Invented the pure-play foundry model: a company that manufactures chips designed by others but designs none of its own. Over four decades, TSMC became the single most critical chokepoint in advanced semiconductor manufacturing.",
+    "description": "Built trust through incapacity: by refusing to design chips, TSMC became the only manufacturer that posed no competitive threat to its customers. Turned paranoia into a structural advantage no integrated competitor could replicate.",
     "tags": [
       "SUBJECT"
     ]
@@ -963,10 +963,10 @@
   },
   "judy-faulkner": {
     "name": "Judy Faulkner",
-    "role": "Founder of Epic Systems",
+    "role": "Founder and CEO of Epic Systems",
     "avatar": "JF",
     "quote": "",
-    "description": "Built the dominant electronic medical records platform by choosing an industry so messy and regulated that competitors with more capital repeatedly failed to crack it. A private company in Verona, Wisconsin now holds more data on American patients than the federal government.",
+    "description": "Built the largest electronic health records company in the United States, serving over 300 million patients. Never took outside capital, never acquired another company, never went public. Posted ten commandments of prohibition in every bathroom at Epic's Verona, Wisconsin campus.",
     "tags": [
       "SUBJECT"
     ]
@@ -1058,7 +1058,7 @@
     "quote": "",
     "description": "His speeches on cognitive bias and psychological misjudgment provide some of the most precise descriptions of identity-protective cognition in the business literature. Identified the occupied-space problem and the Tolstoy effect as mechanisms by which self-image prevents self-correction.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "marc-andreessen": {
@@ -1153,7 +1153,7 @@
   },
   "ivy-lee": {
     "name": "Ivy Lee",
-    "role": "Pioneer of modern public relations (1877-1934)",
+    "role": "Efficiency consultant (1877-1934)",
     "avatar": "IL",
     "quote": "",
     "description": "Invented the practice of shaping reality rather than merely managing messages. For the Pennsylvania Railroad and later Rockefeller, Lee constructed narratives that became the lens through which the public understood his clients, building them a beautiful house and locking them inside it.",
@@ -1253,12 +1253,12 @@
   },
   "david-heinemeier-hansson": {
     "name": "David Heinemeier Hansson",
-    "role": "Creator of Ruby on Rails, co-founder of Basecamp",
+    "role": "Creator of Ruby on Rails, co-founder of 37signals",
     "avatar": "DH",
     "quote": "",
     "description": "Articulated the impossibility of retirement for ambitious operators: 'Mojito Island is a mirage. There is no retirement for ambitious people.' The striver and the retiree are incompatible psychological structures, and no amount of money can bridge the gap.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "michael-ovitz": {
@@ -1303,7 +1303,7 @@
   },
   "reed-hastings": {
     "name": "Reed Hastings",
-    "role": "Co-founder and CEO of Netflix",
+    "role": "Co-founder of Netflix",
     "avatar": "RH",
     "quote": "",
     "description": "Deliberately destroyed Netflix's profitable DVD business to force the transition to streaming. The Qwikster debacle failed as a branding exercise but succeeded as an identity operation. Netflix's streaming self emerged from the wreckage.",
@@ -1319,6 +1319,176 @@
     "description": "Put half his personal net worth into Bank One stock on his first day as CEO. By fusing his financial future with the institution's survival, Dimon eliminated the escape hatch that most trapped operators leave open.",
     "tags": [
       "SUBJECT"
+    ]
+  },
+  "sol-price": {
+    "name": "Sol Price",
+    "role": "Founder of FedMart and Price Club",
+    "avatar": "SP",
+    "quote": "",
+    "description": "Invented the warehouse club format and pioneered the concept of 'the intelligent loss of sales'—the deliberate refusal to carry profitable products that would complicate operations or confuse the value proposition.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "jim-sinegal": {
+    "name": "Jim Sinegal",
+    "role": "Co-founder of Costco (1936-present)",
+    "avatar": "JS",
+    "quote": "",
+    "description": "Sol Price's protégé who built Costco on a hard margin cap: 14% on branded goods, 15% on Kirkland. Compared price increases to heroin and designed the cap to eliminate the temptation entirely.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "howard-marks": {
+    "name": "Howard Marks",
+    "role": "Co-founder of Oaktree Capital Management",
+    "avatar": "HM",
+    "quote": "",
+    "description": "Built a $180 billion distressed debt firm on the principle that avoiding big losses matters more than achieving big gains. Quantified the patience premium through the parable of the 27th-percentile fund manager.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "ron-shaich": {
+    "name": "Ron Shaich",
+    "role": "Founder of Panera Bread and Au Bon Pain",
+    "avatar": "RS",
+    "quote": "",
+    "description": "Built a $7 billion restaurant empire by refusing to chase same-store sales, the metric Wall Street used to evaluate restaurant chains. Spent $42 million building Panera 2.0 while analysts downgraded the stock.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "steve-wozniak": {
+    "name": "Steve Wozniak",
+    "role": "Co-founder of Apple Computer",
+    "avatar": "SW",
+    "quote": "",
+    "description": "Designed computers on paper because he could not afford components. The poverty forced design tricks that no funded competitor discovered, including a floppy disk controller using five chips where the industry standard used fifty to one hundred.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "jack-byrne": {
+    "name": "Jack Byrne",
+    "role": "CEO of GEICO (1970s turnaround)",
+    "avatar": "JB",
+    "quote": "",
+    "description": "Threw GEICO's New Jersey business license on the insurance commissioner's desk, canceled 30,000 policies, and fired 2,000 employees. Cut revenue that was killing the company and saved it by shrinking.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "martin-escobari": {
+    "name": "Martin Escobari",
+    "role": "Partner at General Atlantic",
+    "avatar": "ME",
+    "quote": "",
+    "description": "Built an investment practice around refusing binary risk: worst-case scenario must be that a company grows into the valuation paid. Achieved a 4% loss ratio in an industry where 20-40% is standard.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "peter-kaufman": {
+    "name": "Peter Kaufman",
+    "role": "Chairman of Glenair, editor of Poor Charlie's Almanack",
+    "avatar": "PK",
+    "quote": "",
+    "description": "Distilled the constancy principle: Buffett and Munger got rich not by being brilliant but by being constant. The peers had higher highs. The constants had no lows. Over decades, the absence of lows was worth more than the presence of highs.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "quintus-fabius-maximus": {
+    "name": "Quintus Fabius Maximus",
+    "role": "Roman dictator during the Second Punic War (c. 280-203 BCE)",
+    "avatar": "QM",
+    "quote": "",
+    "description": "Appointed dictator after Hannibal destroyed a Roman army at Lake Trasimene. Refused to fight, marched within sight of Hannibal but declined every invitation to battle. The Senate hated him while alive and named a strategy after him once he was dead.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "emperor-maurice": {
+    "name": "Emperor Maurice",
+    "role": "Byzantine emperor and military theorist (539-602 AD)",
+    "avatar": "EM",
+    "quote": "",
+    "description": "Wrote the Strategikon, instructing commanders facing nomadic horse-archer armies to avoid pitched battles entirely. The instruction contradicted Roman military culture, which prized direct engagement and decisive battle.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "wang-mang": {
+    "name": "Wang Mang",
+    "role": "Usurper emperor of the Xin Dynasty (45 BCE-23 CE)",
+    "avatar": "WM",
+    "quote": "",
+    "description": "Confucian scholar who seized the Han throne and centralized all decisions in his own person. His determination to prevent usurpation produced the governance failure that made usurpation inevitable—the world's first bottleneck CEO.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "helen-walton": {
+    "name": "Helen Walton",
+    "role": "Wife of Sam Walton",
+    "avatar": "HW",
+    "quote": "",
+    "description": "Imposed two constraints on her husband's ambition: no partnerships with non-family members and no living in a big city. The veto redirected Walton into small towns that larger retailers ignored, producing the most successful retailer in history.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "rick-rubin": {
+    "name": "Rick Rubin",
+    "role": "Music producer",
+    "avatar": "RR",
+    "quote": "",
+    "description": "Described his role as reducer, not producer. His method is subtraction: identify what does not belong in a recording—the extra instruments, overdone arrangements, production flourishes—and remove them.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "dana-white": {
+    "name": "Dana White",
+    "role": "President of the UFC",
+    "avatar": "DW",
+    "quote": "",
+    "description": "Lost $80,000 in a single gambling session, then built pre-commitment devices: no drinking while gambling, hard loss limits set before sitting down. A man who reads self-destruction in fighters' body language could not see it at a blackjack table with his own money.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "andrew-carnegie": {
+    "name": "Andrew Carnegie",
+    "role": "Founder of Carnegie Steel (1835-1919)",
+    "avatar": "AC",
+    "quote": "",
+    "description": "Selected Rannoch Lodge in the Scottish Highlands—thirty-five miles from the nearest telegraph—as his vacation spot during the Homestead Strike. The alibi collapsed when the deliberate selection became public knowledge.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "thomas-hunt-morgan": {
+    "name": "Thomas Hunt Morgan",
+    "role": "Nobel Prize-winning geneticist (1866-1945)",
+    "avatar": "TM",
+    "quote": "",
+    "description": "Banned calculators from his Caltech laboratory. Researchers, forced to rely on qualitative judgment, began distinguishing between quantities they actually understood and quantities they were merely computing. The lab produced more honest science than those that kept their calculators.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "kashta": {
+    "name": "Kashta",
+    "role": "Kushite king (8th century BCE)",
+    "avatar": "KA",
+    "quote": "",
+    "description": "Faced a problem no army could solve: military invasion of Egypt would unite the factions against him. Instead, he had his daughter appointed God's Wife of Amun, the most powerful religious position in Upper Egypt. Upper Egypt came under Nubian control without a single battle.",
+    "tags": [
+      "REFERENCE"
     ]
   }
 }
