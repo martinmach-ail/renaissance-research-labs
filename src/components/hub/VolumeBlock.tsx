@@ -154,21 +154,6 @@ export function VolumeBlock({
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
           viewport={{ once: true }}
         >
-          {/* Volume Label */}
-          <div
-            style={{
-              fontSize: "12px",
-              fontWeight: 700,
-              letterSpacing: "0.15em",
-              textTransform: "uppercase",
-              color: "rgba(255, 255, 255, 0.6)",
-              marginBottom: "12px",
-              fontFamily: "var(--font-ui), Inter, sans-serif",
-            }}
-          >
-            Volume {romanNumerals[volume.number] || volume.number}
-          </div>
-
           {/* Title */}
           <h2
             style={{

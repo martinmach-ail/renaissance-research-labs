@@ -91,17 +91,23 @@ export default function Archetypes() {
         <ArchetypesHero />
 
         {/* Cross-Cutting Analysis Volumes */}
-        {crossCuttingVolumes.map((analysis) =>
-          analysis.volumes.map((volume, index) => (
+        {crossCuttingVolumes
+          .flatMap((analysis) =>
+            analysis.volumes.map((volume) => ({
+              volume,
+              archetypeColor: analysis.archetypeColor,
+              legendSlug: analysis.slug,
+            }))
+          )
+          .map((item, globalIndex) => (
             <VolumeBlock
-              key={`${analysis.slug}-${volume.slug}`}
-              volume={volume}
-              archetypeColor={analysis.archetypeColor}
-              legendSlug={analysis.slug}
-              isOdd={(index + 1) % 2 === 1}
+              key={`${item.legendSlug}-${item.volume.slug}`}
+              volume={item.volume}
+              archetypeColor={item.archetypeColor}
+              legendSlug={item.legendSlug}
+              isOdd={(globalIndex + 1) % 2 === 1}
             />
-          ))
-        )}
+          ))}
 
         {/* Empty state if no cross-cutting volumes exist */}
         {crossCuttingVolumes.length === 0 && (
