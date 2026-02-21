@@ -59,10 +59,6 @@ function getContentPath() {
   return path.join(process.cwd(), "content", "legends");
 }
 
-// Store extracted section IDs during preprocessing
-// eslint-disable-next-line prefer-const
-let extractedSectionIds: Map<string, string> = new Map();
-
 // Build MDX components with sources data bound to SourceRef
 function buildComponents(sources: FrontmatterSource[]) {
   return {
@@ -85,18 +81,13 @@ function buildComponents(sources: FrontmatterSource[]) {
   };
 }
 
-// Preprocess MDX content to convert {#id} header syntax to SectionTitle component
+// Strip {#id} from ## headings so MDX can parse them cleanly.
+// SectionContext + SectionHeading handle the title→ID mapping at render time
+// using the frontmatter sections array — no module-level state needed.
 function preprocessMDX(content: string): string {
-  extractedSectionIds.clear();
-
-  // Strip {#id} from ## headings — MDX will render them as normal h2 elements,
-  // and the h2 component override + SectionContext will map titles to IDs
   return content.replace(
-    /^(#{2})\s+(.+?)\s*\{#([a-z0-9-]+)\}\s*$/gm,
-    (_, _hashes, title, id) => {
-      extractedSectionIds.set(title.trim(), id);
-      return `## ${title.trim()}`;
-    }
+    /^(#{2})\s+(.+?)\s*\{#[a-z0-9-]+\}\s*$/gm,
+    (_, _hashes, title) => `## ${title.trim()}`
   );
 }
 
