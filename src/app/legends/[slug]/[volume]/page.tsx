@@ -25,6 +25,7 @@ import { Footnote } from "@/components/Footnote";
 import { Interlude } from "@/components/Interlude";
 import { ConceptLink } from "@/components/ConceptLink";
 import { SourceRef } from "@/components/SourceRef";
+import { SourcesProvider } from "@/components/SourcesProvider";
 import { getDisplayName, formatMotif } from "@/lib/taxonomy";
 import "@/components/volume/volume-page.css";
 
@@ -59,8 +60,8 @@ function getContentPath() {
   return path.join(process.cwd(), "content", "legends");
 }
 
-// Build MDX components with sources data bound to SourceRef
-function buildComponents(sources: FrontmatterSource[]) {
+// Build MDX components — SourceRef gets its sources from SourcesProvider context
+function buildComponents() {
   return {
     DropCap,
     PersonLink,
@@ -71,9 +72,7 @@ function buildComponents(sources: FrontmatterSource[]) {
     Footnote,
     Interlude,
     ConceptLink,
-    SourceRef: (props: { id: number }) => (
-      <SourceRef id={props.id} sources={sources} />
-    ),
+    SourceRef,
     // h2 renders section titles with ID from SectionContext
     h2: (props: React.ComponentPropsWithoutRef<"h2">) => (
       <SectionHeading>{props.children}</SectionHeading>
@@ -106,9 +105,7 @@ async function getVolumeData(slug: string, volume: string) {
   // Preprocess to remove {#id} syntax that MDX can't parse
   const processedContent = preprocessMDX(content);
 
-  // Build components with sources data bound to SourceRef
-  const sources: FrontmatterSource[] = data.sources || [];
-  const components = buildComponents(sources);
+  const components = buildComponents();
 
   // Compile MDX content
   const { content: compiledContent } = await compileMDX({
@@ -203,6 +200,9 @@ export default async function VolumePageRoute({ params }: PageProps) {
   }
 
   const { frontmatter, content } = volumeData;
+  const sources: FrontmatterSource[] = (frontmatter.sources || []).map(
+    (s: FrontmatterSource) => ({ id: Number(s.id), citation: s.citation, dbId: s.dbId })
+  );
   const archetypeColor =
     frontmatter.archetypeColor || indexData?.archetypeColor || "#CA8A04";
 
@@ -344,11 +344,13 @@ export default async function VolumePageRoute({ params }: PageProps) {
             />
 
             {/* Center - Article Content */}
-            <article className="volume-article">
-              <div className="prose-scholia">
-                {content}
-              </div>
-            </article>
+            <SourcesProvider sources={sources}>
+              <article className="volume-article">
+                <div className="prose-scholia">
+                  {content}
+                </div>
+              </article>
+            </SourcesProvider>
 
             {/* Right Marginalia */}
             <MarginaliaSidebar

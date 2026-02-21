@@ -11,12 +11,12 @@
   },
   "sam-walton": {
     "name": "Sam Walton",
-    "role": "Walmart Founder",
+    "role": "Founder of Walmart who spent $24 million on a satellite for a discount retailer",
     "avatar": "SW",
     "quote": "",
-    "description": "Drove a pickup truck despite being America's richest man. Exemplifies the pattern of builders who accumulate fortunes while genuinely not caring about the fortune.",
+    "description": "Founder of Walmart who invested $24 million in a proprietary satellite network that seemed insane for a discount retailer selling shampoo in rural Arkansas. The satellite turned Walmart from a collection of independent stores into a single integrated organism, enabling the inventory management loop that became Walmart's primary competitive advantage.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "warren-buffett": {
@@ -134,12 +134,12 @@
   },
   "jeff-bezos": {
     "name": "Jeff Bezos",
-    "role": "Amazon Founder",
+    "role": "Amazon founder who built on others' infrastructure, then became infrastructure himself",
     "avatar": "JB",
     "quote": "",
-    "description": "Built the same vertical integration capability at Amazon that Ford pioneered: warehouses, delivery trucks, cargo planes, container ships. Also exemplifies the spousal sacrifice pattern.",
+    "description": "Founder of Amazon who built the company on existing infrastructure (credit cards, postal system, telephone network) and then became infrastructure himself, providing AWS, fulfillment, and payment services other companies build on. 'When I started Amazon, I didn't have to develop a payment system. It already existed, called the credit card.'",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "dodge-brothers": {
@@ -639,12 +639,12 @@
   },
   "henry-ford": {
     "name": "Henry Ford",
-    "role": "Founder of Ford Motor Company who bet on single-model mass production when every competitor offered variety",
+    "role": "Founder of Ford Motor Company (1863-1947)",
     "avatar": "HF",
     "quote": "Whether you think you can, or you think you can't — you're right.",
     "description": "Doubled wages to $5 per day to eliminate 370% annual turnover, staffed his factory with unskilled workers to force process simplification, and then held the Model T unchanged for nineteen years until the market forced a six-month shutdown.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "russell-ostrander": {
@@ -873,12 +873,12 @@
   },
   "jorge-paulo-lemann": {
     "name": "Jorge Paulo Lemann",
-    "role": "Brazilian billionaire investor who bought Brahma brewery in 1989 and built it into AB InBev, the world's largest beer company",
+    "role": "Brazilian-born co-founder of 3G Capital",
     "avatar": "JL",
     "quote": "",
     "description": "Waited five years to acquire Brahma brewing company, then closed the deal in one week when owners panicked. The initial $80 million investment became over $60 billion through systematic consolidation into AB InBev.",
     "tags": [
-      "REFERENCE"
+      "OPERATOR"
     ]
   },
   "kublai-khan": {
@@ -933,12 +933,12 @@
   },
   "morris-chang": {
     "name": "Morris Chang",
-    "role": "Founder of TSMC who created the pure-play foundry model separating chip design from manufacturing",
+    "role": "Founder of Taiwan Semiconductor Manufacturing Company",
     "avatar": "MC",
     "quote": "",
     "description": "Built trust through incapacity: by refusing to design chips, TSMC became the only manufacturer that posed no competitive threat to its customers. Turned paranoia into a structural advantage no integrated competitor could replicate.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "bernard-arnault": {
@@ -963,7 +963,7 @@
   },
   "judy-faulkner": {
     "name": "Judy Faulkner",
-    "role": "Founder and CEO of Epic Systems",
+    "role": "Founder of Epic Systems",
     "avatar": "JF",
     "quote": "",
     "description": "Built the largest electronic health records company in the United States, serving over 300 million patients. Never took outside capital, never acquired another company, never went public. Posted ten commandments of prohibition in every bathroom at Epic's Verona, Wisconsin campus.",
@@ -1053,10 +1053,10 @@
   },
   "charlie-munger": {
     "name": "Charlie Munger",
-    "role": "Vice chairman of Berkshire Hathaway and intellectual partner of Warren Buffett",
+    "role": "Vice Chairman of Berkshire Hathaway (1924-2023)",
     "avatar": "CM",
     "quote": "",
-    "description": "His speeches on cognitive bias and psychological misjudgment provide some of the most precise descriptions of identity-protective cognition in the business literature. Identified the occupied-space problem and the Tolstoy effect as mechanisms by which self-image prevents self-correction.",
+    "description": "Investor who said the cash register 'did more for human morality than the congregational church.' The statement is deliberately provocative and entirely serious. The register made dishonesty expensive by increasing the probability of detection. It replaced personal supervision with systematic monitoring, enabling control across distances that personal relationships could never govern.",
     "tags": [
       "REFERENCE"
     ]
@@ -1153,7 +1153,7 @@
   },
   "ivy-lee": {
     "name": "Ivy Lee",
-    "role": "Efficiency consultant (1877-1934)",
+    "role": "Pioneer of modern public relations (1877-1934)",
     "avatar": "IL",
     "quote": "",
     "description": "Invented the practice of shaping reality rather than merely managing messages. For the Pennsylvania Railroad and later Rockefeller, Lee constructed narratives that became the lens through which the public understood his clients, building them a beautiful house and locking them inside it.",
@@ -1163,12 +1163,12 @@
   },
   "bernie-marcus": {
     "name": "Bernie Marcus",
-    "role": "Co-founder of Home Depot who walked away from Ross Perot's investment over a dispute about a Cadillac",
+    "role": "Co-founder of Home Depot",
     "avatar": "BM",
     "quote": "",
     "description": "When a $3 million investor demanded healthcare cuts, Marcus pulled his car onto the highway shoulder and told the investor to get out. His commitment to people over metrics held under financial pressure because it was genuine, not performative.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "pertinax": {
@@ -1206,7 +1206,7 @@
     "role": "Macedonian king (356-323 BC)",
     "avatar": "AG",
     "quote": "",
-    "description": "Carried the Iliad on his campaigns and modeled his identity and strategy on Achilles. The text was his operating system, brilliant during conquest but containing no instructions for what came after. His empire began fragmenting before his death.",
+    "description": "King of Macedon who crossed the Hellespont in 334 BCE with 32,000 infantry, 5,000 cavalry, a thirty-day food supply, and a war chest of seventy talents. He conquered the Persian Empire in eleven years, building the largest empire the world had yet seen. His empire did not survive his death at thirty-two because his genius was personal: tactical brilliance, physical courage, and charismatic authority that could not be transmitted, delegated, or institutionalized.",
     "tags": [
       "REFERENCE"
     ]
@@ -1216,7 +1216,7 @@
     "role": "Egyptian pharaoh (r. c. 2278-2184 BC)",
     "avatar": "PI",
     "quote": "",
-    "description": "Ascended the throne at age six and ruled for over sixty years. A way of ruling formed by a six-year-old's circumstances was maintained by adult habit for six decades, slowly emptying the central authority of content.",
+    "description": "Egyptian pharaoh who reigned for over sixty years. During his rule, regional governors' positions became hereditary and the central state slowly lost control of provinces. The disintegration was invisible during his lifetime and catastrophic after his death.",
     "tags": [
       "REFERENCE"
     ]
@@ -1253,7 +1253,7 @@
   },
   "david-heinemeier-hansson": {
     "name": "David Heinemeier Hansson",
-    "role": "Creator of Ruby on Rails and co-founder of Basecamp/Hey.com who rejected venture capital and the separation of front-end and back-end engineering",
+    "role": "Creator of Ruby on Rails, co-founder of Basecamp",
     "avatar": "DH",
     "quote": "",
     "description": "Articulated the impossibility of retirement for ambitious operators: 'Mojito Island is a mirage. There is no retirement for ambitious people.' The striver and the retiree are incompatible psychological structures, and no amount of money can bridge the gap.",
@@ -1263,12 +1263,12 @@
   },
   "michael-ovitz": {
     "name": "Michael Ovitz",
-    "role": "Legendary talent agent, co-founder of CAA, and one of the most powerful figures in 1980s-90s Hollywood",
+    "role": "Co-founder of Creative Artists Agency",
     "avatar": "MO",
     "quote": "",
     "description": "Built CAA into the most powerful talent agency in entertainment, then discovered that his power had been a function of his position, not his person. His authority was rented from the institution he had built, and when he left, the authority did not follow.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "king-kashta": {
@@ -1283,12 +1283,12 @@
   },
   "jean-claude-biver": {
     "name": "Jean-Claude Biver",
-    "role": "Luxury watch executive who bought the dormant Blancpain brand in 1983 for sixteen thousand dollars and revived mechanical watchmaking by positioning obsolescence as heritage",
+    "role": "Swiss-Lebanese watch industry executive",
     "avatar": "JB",
     "quote": "",
     "description": "Purchased the dormant Blancpain brand for approximately $16,000 and reclassified the entire mechanical watch industry. Mechanical watches had been timekeeping devices; Biver reclassified them as luxury objects. The product did not change. The category did.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "barry-diller": {
@@ -1303,32 +1303,32 @@
   },
   "reed-hastings": {
     "name": "Reed Hastings",
-    "role": "Co-founder of Netflix who built a DVD-by-mail business while the market chased internet delivery",
+    "role": "Co-founder and CEO of Netflix",
     "avatar": "RH",
     "quote": "",
     "description": "Deliberately destroyed Netflix's profitable DVD business to force the transition to streaming. The Qwikster debacle failed as a branding exercise but succeeded as an identity operation. Netflix's streaming self emerged from the wreckage.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "jamie-dimon": {
     "name": "Jamie Dimon",
-    "role": "CEO of JPMorgan Chase who maintained conservative leverage during the pre-2008 boom while competitors posted higher returns",
+    "role": "Chairman and CEO of JPMorgan Chase",
     "avatar": "JD",
     "quote": "",
     "description": "Put half his personal net worth into Bank One stock on his first day as CEO. By fusing his financial future with the institution's survival, Dimon eliminated the escape hatch that most trapped operators leave open.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "sol-price": {
     "name": "Sol Price",
-    "role": "Founder of FedMart and Price Club, pioneer of the warehouse club format and the concept of 'intelligent loss of sales'",
+    "role": "Founder of FedMart and Price Club",
     "avatar": "SP",
     "quote": "",
     "description": "Invented the warehouse club format and pioneered the concept of 'the intelligent loss of sales'—the deliberate refusal to carry profitable products that would complicate operations or confuse the value proposition.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "jim-sinegal": {
@@ -1383,12 +1383,12 @@
   },
   "martin-escobari": {
     "name": "Martin Escobari",
-    "role": "Managing partner at General Atlantic and former 3G Capital executive",
+    "role": "Partner at General Atlantic",
     "avatar": "ME",
     "quote": "",
     "description": "Built an investment practice around refusing binary risk: worst-case scenario must be that a company grows into the valuation paid. Achieved a 4% loss ratio in an industry where 20-40% is standard.",
     "tags": [
-      "REFERENCE"
+      "SUBJECT"
     ]
   },
   "peter-kaufman": {
@@ -1413,7 +1413,7 @@
   },
   "emperor-maurice": {
     "name": "Emperor Maurice",
-    "role": "Byzantine emperor who codified asymmetric warfare doctrine in the Strategikon",
+    "role": "Byzantine emperor and military theorist (539-602 AD)",
     "avatar": "EM",
     "quote": "",
     "description": "Wrote the Strategikon, instructing commanders facing nomadic horse-archer armies to avoid pitched battles entirely. The instruction contradicted Roman military culture, which prized direct engagement and decisive battle.",
@@ -1463,10 +1463,10 @@
   },
   "andrew-carnegie": {
     "name": "Andrew Carnegie",
-    "role": "Steel magnate who doubled plant capacity during depressions when competitors were cutting dividends",
+    "role": "Founder of Carnegie Steel (1835-1919)",
     "avatar": "AC",
     "quote": "",
-    "description": "Selected Rannoch Lodge in the Scottish Highlands—thirty-five miles from the nearest telegraph—as his vacation spot during the Homestead Strike. The alibi collapsed when the deliberate selection became public knowledge.",
+    "description": "Steel magnate who achieved dominance through obsessive cost tracking, knowing his production costs to the fraction of a cent while competitors could not tell him their costs to within two dollars per ton. His full vertical integration, assembled by Frick, made the cost advantage structural: from crude ore to finished steel, there was never a price, profit, or royalty paid to an outsider.",
     "tags": [
       "REFERENCE"
     ]
@@ -1626,7 +1626,7 @@
     "role": "King who studied Greek democracy as a teenage hostage in Thebes, then built a military system calibrated to exploit every weakness he had catalogued",
     "avatar": "PM",
     "quote": "",
-    "description": "",
+    "description": "Father of Alexander the Great, who transformed Macedonia from a backward tribal kingdom into the dominant military power in Greece. His famous remark: any wall can be scaled by a donkey carrying gold. Philip optimized for total cost of acquisition rather than military glory, purchasing cities intact through bribery rather than destroying them through siege.",
     "tags": [
       "REFERENCE"
     ]
@@ -1647,6 +1647,146 @@
     "avatar": "JS",
     "quote": "",
     "description": "",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "perdiccas": {
+    "name": "Perdiccas",
+    "role": "General who became Alexander's first equity investor",
+    "avatar": "PE",
+    "quote": "",
+    "description": "One of Alexander's generals who questioned his decision to give away all his personal property before the invasion of Persia. When told Alexander was keeping only his hopes, Perdiccas replied he would be a partner in those. The exchange is the earliest recorded equity fundraise.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "dan-carlin": {
+    "name": "Dan Carlin",
+    "role": "Historian who framed Alexander's invasion as a startup challenging a monopoly",
+    "avatar": "DC",
+    "quote": "",
+    "description": "Host of Hardcore History who described Alexander's invasion of Persia as a startup with disruptive technology (the Macedonian phalanx) challenging a monopoly incumbent (the Persian Empire). His characterization: 'Alexander might as well be a company here. This might as well be a father-and-son operation that has disruptive technology.'",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "darius-i": {
+    "name": "Darius I",
+    "role": "Persian emperor who built the first Fortune 500 organizational structure",
+    "avatar": "DI",
+    "quote": "",
+    "description": "Persian emperor who governed an empire stretching from Libya to India through a five-part administrative system: delegation to satraps, standardized currency (the gold daric), standardized weights and measures, regular reports to central administration, and the Royal Road relay system. He anticipated every organizational chart drawn since.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "john-d-rockefeller": {
+    "name": "John D. Rockefeller",
+    "role": "Founder of Standard Oil who built sequential, self-financing monopoly",
+    "avatar": "JR",
+    "quote": "",
+    "description": "Founder of Standard Oil who assembled the first American industrial monopoly through vertical integration, secret railroad rebates, and a blueprint for eliminating competition. His system accumulated control sequentially and self-financed each expansion: refineries generated cash, cash bought pipelines, pipeline revenues funded rebates, rebates crushed competitors.",
+    "tags": [
+      "SUBJECT"
+    ]
+  },
+  "marcel-telles": {
+    "name": "Marcel Telles",
+    "role": "3G Capital co-founder who replaced the artist brewer with a process",
+    "avatar": "MT",
+    "quote": "",
+    "description": "Co-founder of 3G Capital who brought quality consultants to Brahma brewery and discovered every plant produced different-tasting beer because the chief brewer considered himself an artist. Telles replaced artistry with process. The resulting beer never matched the artist's best batch but was identical to every other batch, every day, at every plant.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "berry-gordy": {
+    "name": "Berry Gordy",
+    "role": "Motown founder who built a pin factory for pop music",
+    "avatar": "BG",
+    "quote": "",
+    "description": "Founder of Motown Records who built a hit-making system: a dedicated songwriting team (Holland-Dozier-Holland), a house band (the Funk Brothers), Friday morning quality control meetings where songs had to pass audience testing, and an artist development pipeline. Motown produced 79 records that reached the Top Ten in an eight-year stretch, a hit rate that no genius-dependent model has ever matched.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "esarhaddon": {
+    "name": "Esarhaddon",
+    "role": "Assyrian king who invented the co-presidency disaster",
+    "avatar": "ES",
+    "quote": "",
+    "description": "Assyrian king who attempted to prevent civil war by naming one son king of Assyria and another king of Babylon, creating co-equal power centers that destroyed the empire. The pattern recurs whenever someone tries to solve the succession problem by creating parallel structures.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "askia-muhammad": {
+    "name": "Askia Muhammad",
+    "role": "Songhai emperor whose pluralistic coalition burst like a bubble",
+    "avatar": "AM",
+    "quote": "",
+    "description": "Songhai emperor who built the largest state in West African history through a pluralistic coalition, uniting competing ethnic and religious factions under shared governance. The structure required continuous maintenance. When the maintenance stopped, the empire shattered from a single puncture.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "ashurbanipal": {
+    "name": "Ashurbanipal",
+    "role": "Last great Assyrian king who built a library and destroyed civilizations with equal enthusiasm",
+    "avatar": "AS",
+    "quote": "",
+    "description": "Last great king of Assyria who built the first universal library (30,000+ clay tablets) and crushed enemies so completely that power vacuums attracted new enemies with deeper hatreds. The patron saint of everyone who reads books about leadership and then fires their entire team.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "pachacuti-inca-yupanqui": {
+    "name": "Pachacuti Inca Yupanqui",
+    "role": "Builder of the Inca Empire who used visible abundance as psychological control",
+    "avatar": "PY",
+    "quote": "",
+    "description": "Builder of the Inca Empire who expanded through visible infrastructure. In the Mantaro Basin alone, 3,000 storehouses held 170,000 cubic meters of capacity, placed on hilltops visible from the valley floor. The storehouses served three functions simultaneously: logistical supply, disaster relief, and psychological control.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "emperor-wu-of-han": {
+    "name": "Emperor Wu of Han",
+    "role": "Han emperor who solved the infrastructure problem through distribution",
+    "avatar": "EH",
+    "quote": "",
+    "description": "Han Dynasty emperor who created a distributed horse breeding program by loaning horses to farmers in exchange for foals and exempting horse-providing families from military service. The cost was distributed across millions of households, each bearing a tiny fraction. A centralized farm could be destroyed by a single raid or epidemic. The distributed network could not.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "nabataeans": {
+    "name": "Nabataeans",
+    "role": "Desert traders who invented the chokepoint toll",
+    "avatar": "NA",
+    "quote": "",
+    "description": "Desert trading people who controlled the incense trade for centuries by occupying the oases caravans required. They charged a quarter of all goods passing through their territory, owning nothing but the chokepoint. When Rome sent an expedition to bypass them, the Nabataean guide Sylaeus led the Romans through waterless stretches designed to maximize casualties.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "mongol-empire": {
+    "name": "Mongol Empire",
+    "role": "Largest contiguous land empire, governed through passports and relay stations",
+    "avatar": "ME",
+    "quote": "",
+    "description": "Largest contiguous land empire in history, governed through the paisah (passport system in wood, bronze, silver, or gold according to rank) and the jam (relay station network positioned at 25-mile intervals with roughly 300,000 horses maintained). The operational cost was enormous. The information advantage was decisive.",
+    "tags": [
+      "REFERENCE"
+    ]
+  },
+  "costco": {
+    "name": "Costco",
+    "role": "Wholesale retailer that deliberately chose its trap and structured the business to absorb it",
+    "avatar": "CO",
+    "quote": "",
+    "description": "Wholesale retailer processing 500 million chickens per year, including 130 million rotisserie chickens sold at $4.99 as a loss leader. Before building its own processing plant, Costco rented 100% of an existing Alabama facility for years, learning every aspect of the business. The rental was tuition. The owned facility was the graduation.",
     "tags": [
       "REFERENCE"
     ]

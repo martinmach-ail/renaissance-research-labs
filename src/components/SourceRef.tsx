@@ -2,17 +2,14 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
+import { useSources } from './SourcesProvider';
 
 interface SourceRefProps {
   id: number;
-  sources?: Array<{
-    id: number;
-    citation: string;
-    dbId?: string;
-  }>;
 }
 
-export function SourceRef({ id, sources = [] }: SourceRefProps) {
+export function SourceRef({ id }: SourceRefProps) {
+  const sources = useSources();
   const [visible, setVisible] = useState(false);
   const [pos, setPos] = useState({ x: 0, y: 0 });
   const [mounted, setMounted] = useState(false);
